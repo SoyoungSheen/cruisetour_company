@@ -77,15 +77,15 @@ li a:hover {
 
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
-#slider { width: 1200px;
-  height: 1150px; background-color: darkgray;
+#slider { width: 1700px;
+  height: 1000px; background-color: darkgray;
   background-image: url(../img/vacations.jpg);
 }
 
 
 
 #dates{
-  width: 1200px; height: 150px; background-color: bisque;
+  width: 1700px; height: 150px; background-color: bisque;
 }
 
 .text_field{
@@ -96,11 +96,40 @@ li a:hover {
   text-align:left;
   letter-spacing: 0;
   text-transform: none;
-  margin-left:150px;
+  margin-left: 20px;
 }
 
-#offers { width: 1900px; height: 800px; background-color: darkorange;
+label {
+  display:block;
+  margin-bottom:5px;
+  
+}
 
+w-input, w-select {
+  display:block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  line-height: 1.4285;
+ 
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+#dates {
+  display: flex; align-items: center; justify-content: space-around;
+  
+}
+
+.max {margin-left: 100px;}
+
+.send {display: flex; align-items: center; justify-content: center; width: 1700px; height: 100px; background-color: bisque;}
+button { width: 400px; height: 50px; padding:20px; background-color: rgb(108, 205, 223); color:rgb(255, 255, 255); border-radius: 10px; border: 1px solid #ffffff;font-size:medium; cursor:pointer; }
+
+
+#offers { width: 1900px; height: 800px; background-color: darkorange;
+border-bottom: 1px solid #bdb0b0;
 }
 
 
