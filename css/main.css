@@ -17,20 +17,20 @@ body{
 }
   
   
-nav{ width: 350px; height: 100%;
+nav{ width: 230px; height: 100%;
 background-color: paleturquoise; position: fixed;left:0px;top:0px;bottom:0px;
 border-right: 1px solid rgb(255, 255, 255) ;}
 
 
   #logo {position:relative;margin:50px 40px 40px 0;
-  float: none; width: 350px; height: 200px; background-color: yellowgreen;
+  float: none; width: 230px; height: 200px; background-color: yellowgreen;
 display: flex; align-items: center; justify-content: center;}
 
 
 
   ul {
   background-color: cornflowerblue;
-  width: 350px;
+  width: 230px;
   height: auto;
   padding-right: 50px;
   
@@ -69,22 +69,35 @@ li a:hover {
 }
 
 #under_box{
-  width: 350px; height: 150px; background-color: coral ;
+  width: 230px; height: 150px; background-color: coral ;
   margin-top: 80px; display: flex; align-items: center; justify-content: center;
 }
 
-.box img {border-radius: 80%; background-color: rgb(107, 168, 248);}
+.box img {border-radius: 80%; background-color: rgb(107, 168, 248); margin-left: 10px;}
 
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
-#slider { width: 1900px;
+#slider { width: 1200px;
   height: 1150px; background-color: darkgray;
   background-image: url(../img/vacations.jpg);
 }
 
 
 
+#dates{
+  width: 1200px; height: 150px; background-color: bisque;
+}
 
+.text_field{
+  border-radius: 5px;
+  color: #0b5e73;
+  font-size: 14px;
+  font-weight: 400;
+  text-align:left;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-left:150px;
+}
 
 #offers { width: 1900px; height: 800px; background-color: darkorange;
 
