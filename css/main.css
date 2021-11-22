@@ -70,13 +70,19 @@ li a:hover {
 
 #under_box{
   width: 350px; height: 150px; background-color: coral ;
-  margin-top: 80px;
+  margin-top: 80px; display: flex; align-items: center; justify-content: center;
 }
+
+.box img {border-radius: 80%; background-color: rgb(107, 168, 248);}
+
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
 #slider { width: 1900px;
   height: 1150px; background-color: darkgray;
+  background-image: url(../img/vacations.jpg);
 }
+
+
 
 
 
