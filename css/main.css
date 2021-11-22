@@ -1,169 +1,321 @@
-*{box-sizing: border-box;
-margin: 0 ;
-padding:0;}
-
-ul li {list-style: none;}
-
-
-body{
-  height: 100%;
-  margin: 0 0 0 230px;
-  background-color: yellow;
-  font-size:14px;
-  line-height: 20px;
-  color:#333;
-  font-size:14;
-  line-height: 20px;
-}
-  
-  
-nav{ width: 230px; height: 100%;
-background-color: paleturquoise; position: fixed;left:0px;top:0px;bottom:0px;
-border-right: 1px solid rgb(255, 255, 255) ;}
-
-
-  #logo {position:relative;margin:50px 40px 40px 0;
-  float: none; width: 230px; height: 200px; background-color: yellowgreen;
-display: flex; align-items: center; justify-content: center;}
-
-
-
-  ul {
-  background-color: cornflowerblue;
-  width: 230px;
-  height: auto;
-  padding-right: 50px;
-  
-  
-
-
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-   li a {
- display: block;
-  padding-right: 50px;
-  padding-left:0px;
-  color:cadetblue;
-  font-size:15px;
-  font-weight: 700;
-  text-align:right;
-  letter-spacing: 1px;
-  text-transform: uppercase; display: block;
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: bolder;
-  list-style: none;
-  
+ul li {
+	list-style: none;
+}
 
+body {
+	height: 100%;
+	margin: 0 0 0 230px;
+	background-color: yellow;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	font-size: 14;
+	line-height: 20px;
+}
+
+nav {
+	width: 230px;
+	height: 100%;
+	background-color: paleturquoise;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	border-right: 1px solid rgb(255, 255, 255);
+}
+
+#logo {
+	position: relative;
+	margin: 50px 40px 40px 0;
+	float: none;
+	width: 230px;
+	height: 200px;
+	background-color: yellowgreen;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	background-color: cornflowerblue;
+	width: 230px;
+	height: auto;
+	padding-right: 50px;
+}
+
+li a {
+	display: block;
+	padding-right: 50px;
+	padding-left: 0px;
+	color: cadetblue;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: right;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+	list-style: none;
 }
 
 li a.current {
-    background-color: orangered;
-    color:white;
+	background-color: orangered;
+	color: white;
 }
 
 li a:hover {
-  background-color: rgb(43, 134, 194);
-  color: white;
+	background-color: rgb(43, 134, 194);
+	color: white;
 }
 
-#under_box{
-  width: 230px; height: 150px; background-color: coral ;
-  margin-top: 80px; display: flex; align-items: center; justify-content: center;
+#under_box {
+	width: 230px;
+	height: 150px;
+	background-color: coral;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.box img {border-radius: 80%; background-color: rgb(107, 168, 248); margin-left: 10px;}
-
+.box img {
+	border-radius: 80%;
+	background-color: rgb(107, 168, 248);
+	margin-left: 10px;
+}
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
-#slider { width: 1700px;
-  height: 1000px; background-color: darkgray;
-  background-image: url(../img/vacations.jpg);
-}
-
-
-
-#dates{
-  width: 1700px; height: 150px; background-color: bisque;
-}
-
-.text_field{
-  border-radius: 5px;
-  color: #0b5e73;
-  font-size: 14px;
-  font-weight: 400;
-  text-align:left;
-  letter-spacing: 0;
-  text-transform: none;
-  margin-left: 20px;
-}
-
-label {
-  display:block;
-  margin-bottom:5px;
-  
-}
-
-w-input, w-select {
-  display:block;
-  width: 100%;
-  height: 38px;
-  padding: 8px 12px;
-  margin-bottom: 10px;
-  line-height: 1.4285;
- 
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
+#slider {
+	width: 1700px;
+	height: 1000px;
+	background-color: darkgray;
+	background-image: url(../img/vacations.jpg);
 }
 
 #dates {
-  display: flex; align-items: center; justify-content: space-around;
-  
+	width: 1700px;
+	height: 150px;
+	background-color: bisque;
 }
 
-.max {margin-left: 100px;}
-
-.send {display: flex; align-items: center; justify-content: center; width: 1700px; height: 100px; background-color: bisque;}
-button { width: 400px; height: 50px; padding:20px; background-color: rgb(108, 205, 223); color:rgb(255, 255, 255); border-radius: 10px; border: 1px solid #ffffff;font-size:medium; cursor:pointer; }
-
-
-#offers { width: 1900px; height: 800px; background-color: darkorange;
-border-bottom: 1px solid #bdb0b0;}
-
-.controller {text-align: center; margin-top: 30px;}
-
-
-#experience{
-  width: 1900px; height: 600px; background-color: darkviolet;
+.text_field {
+	border-radius: 5px;
+	color: #0b5e73;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	letter-spacing: 0;
+	text-transform: none;
+	margin-left: 20px;
 }
 
-#services{
-  width: 1900px; height: 1000px;
-  background-color: dodgerblue;
+label {
+	display: block;
+	margin-bottom: 5px;
+}
 
+w-input,
+w-select {
+	display: block;
+	width: 100%;
+	height: 38px;
+	padding: 8px 12px;
+	margin-bottom: 10px;
+	line-height: 1.4285;
+
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+#dates {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.max {
+	margin-left: 100px;
+}
+
+.send {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1700px;
+	height: 100px;
+	background-color: bisque;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.buttons {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.blob-btn {
+	z-index: 1;
+	position: relative;
+	padding: 20px 46px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #0fe0f5;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	transition: color 0.5s;
+	cursor: pointer;
+}
+.blob-btn:before {
+	content: "";
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: 6px solid #0fe0f5;
+}
+.blob-btn:after {
+	content: "";
+	z-index: -2;
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 100%;
+	height: 100%;
+	border: 6px solid #222;
+	transition: all 0.3s 0.2s;
+}
+.blob-btn:hover {
+	color: #222;
+}
+.blob-btn:hover:after {
+	transition: all 0.3s;
+	left: 0;
+	top: 0;
+}
+.blob-btn__inner {
+	z-index: -1;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.blob-btn__blobs {
+	position: relative;
+	display: block;
+	height: 100%;
+	filter: url("#goo");
+}
+.blob-btn__blob {
+	position: absolute;
+	top: 6px;
+	width: 25%;
+	height: 100%;
+	background: #0fe0f5;
+	border-radius: 100%;
+	transform: translate3d(0, 150%, 0) scale(1.7);
+	transition: transform 0.45s;
+}
+@supports (filter: url("#goo")) {
+	.blob-btn__blob {
+		transform: translate3d(0, 150%, 0) scale(1.4);
+	}
+}
+.blob-btn__blob:nth-child(1) {
+	left: 0%;
+	transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) {
+	left: 30%;
+	transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) {
+	left: 60%;
+	transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) {
+	left: 90%;
+	transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob {
+	transform: translateZ(0) scale(1.7);
+}
+@supports (filter: url("#goo")) {
+	.blob-btn:hover .blob-btn__blob {
+		transform: translateZ(0) scale(1.4);
+	}
+}
+
+#offers {
+	width: 1900px;
+	height: 800px;
+	background-color: darkorange;
+	border-bottom: 1px solid #bdb0b0;
+}
+
+.controller {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#experience {
+	width: 1900px;
+	height: 600px;
+	background-color: darkviolet;
+}
+
+#services {
+	width: 1900px;
+	height: 1000px;
+	background-color: dodgerblue;
 }
 
 #experts {
-  width: 1900px; height: 600px;
-  background-color: blanchedalmond; 
+	width: 1900px;
+	height: 600px;
+	background-color: blanchedalmond;
 }
 
-#destinations{
-  width: 1900px; height: 850px;
-  background-color: brown;
+#destinations {
+	width: 1900px;
+	height: 850px;
+	background-color: brown;
 }
 
-#ad{
-  width: 1900px;height: 900px;
-  background-color: darksalmon;
+#ad {
+	width: 1900px;
+	height: 900px;
+	background-color: darksalmon;
 }
 
-
-
-
-footer{
-width: 1900px;
-height: 130px;
-background-color: darkturquoise;
+footer {
+	width: 1900px;
+	height: 130px;
+	background-color: darkturquoise;
 }
