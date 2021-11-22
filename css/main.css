@@ -1,0 +1,120 @@
+*{box-sizing: border-box;
+margin: 0 ;
+padding:0;}
+
+ul li {list-style: none;}
+
+
+body{
+  height: 100%;
+  margin: 0 0 0 230px;
+  background-color: yellow;
+  font-size:14px;
+  line-height: 20px;
+  color:#333;
+  font-size:14;
+  line-height: 20px;
+}
+  
+  
+nav{ width: 350px; height: 100%;
+background-color: paleturquoise; position: fixed;left:0px;top:0px;bottom:0px;
+border-right: 1px solid rgb(255, 255, 255) ;}
+
+
+  #logo {position:relative;margin:50px 40px 40px 0;
+  float: none; width: 350px; height: 200px; background-color: yellowgreen;
+display: flex; align-items: center; justify-content: center;}
+
+
+
+  ul {
+  background-color: cornflowerblue;
+  width: 350px;
+  height: auto;
+  padding-right: 50px;
+  
+  
+
+
+}
+
+   li a {
+ display: block;
+  padding-right: 50px;
+  padding-left:0px;
+  color:cadetblue;
+  font-size:15px;
+  font-weight: 700;
+  text-align:right;
+  letter-spacing: 1px;
+  text-transform: uppercase; display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  list-style: none;
+  
+
+}
+
+li a.current {
+    background-color: orangered;
+    color:white;
+}
+
+li a:hover {
+  background-color: rgb(43, 134, 194);
+  color: white;
+}
+
+#under_box{
+  width: 350px; height: 150px; background-color: coral ;
+  margin-top: 80px;
+}
+
+/* 페이지 띄워서 첫 화면의 모습입니다 */
+#slider { width: 1900px;
+  height: 1150px; background-color: darkgray;
+}
+
+
+
+#offers { width: 1900px; height: 800px; background-color: darkorange;
+
+}
+
+
+#experience{
+  width: 1900px; height: 600px; background-color: darkviolet;
+}
+
+#services{
+  width: 1900px; height: 1000px;
+  background-color: dodgerblue;
+
+}
+
+#experts {
+  width: 1900px; height: 600px;
+  background-color: blanchedalmond; 
+}
+
+#destinations{
+  width: 1900px; height: 850px;
+  background-color: brown;
+}
+
+#ad{
+  width: 1900px;height: 900px;
+  background-color: darksalmon;
+}
+
+
+
+
+footer{
+width: 1900px;
+height: 130px;
+background-color: darkturquoise;
+}
