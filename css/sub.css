@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+/*body {
+	height: 100%;
+	margin: 0 0 0 230px;
+	background-color: yellow;
+	font-size: 14px;
+	line-height: 20px;
+}*/
+
+nav {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 230px;
+	height: 100%;
+	background-color: paleturquoise;
+	border-right: 1.5px solid rgb(228, 228, 228);
+}
+
+#logo {
+	position: relative;
+	margin: 50px 40px 40px 0;
+	float: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height: 250px;
+	background-color: yellowgreen;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+	background-color: cornflowerblue;
+	width: 150px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+li a {
+	display: block;
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+	list-style: none;
+}
+
+li a.current {
+	background-color: orangered;
+	color: white;
+}
+
+li a:hover {
+	background-color: rgb(43, 134, 194);
+	color: white;
+}
+
+#slider {
+	width: 1750px;
+	height: 1000px;
+	background-color: brown;
+}
+
+#explain {
+	width: 1750px;
+	height: 250px;
+	background-color: yellow;
+}
+
+#offers {
+	width: 1750px;
+	height: 600px;
+	background-color: darkcyan;
+}
+
+#experience {
+	width: 1750px;
+	height: 500px;
+	background-color: darkgoldenrod;
+}
+
+#experts {
+	width: 1750px;
+	height: 1000px;
+	background-color: red;
+}
+
+#tour {
+	width: 1750px;
+	height: 600px;
+	background-color: darkorange;
+}
+
+#explain2 {
+}
+
+footer {
+}
