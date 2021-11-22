@@ -116,6 +116,21 @@ li a:hover {
 	letter-spacing: 0;
 	text-transform: none;
 	margin-left: 20px;
+	padding: 10px;
+}
+
+input::placeholder {
+	color: #ccc;
+	font-style: italic;
+}
+
+input {
+	font-size: 20px;
+}
+
+textarea::placeholder {
+	color: blanchedalmond;
+	font-weight: bold;
 }
 
 label {
@@ -167,11 +182,6 @@ body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.buttons {
-	margin-top: 50px;
-	text-align: center;
-}
-
 .blob-btn {
 	z-index: 1;
 	position: relative;
@@ -179,7 +189,7 @@ body {
 	margin-bottom: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #0fe0f5;
+	color: #4cebeb;
 	font-size: 16px;
 	font-weight: bold;
 	background-color: transparent;
