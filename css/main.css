@@ -332,13 +332,13 @@ body {
 	height: 800px;
 	background-color: darkorange;
 	border-bottom: 1px solid #bdb0b0;
-	display: flex; align-items: center;justify-content: flex-start;
+	display: flex; align-items: center; justify-content: center;
 	border: 1px solid #ccc; overflow: hidden; 	
 
 }
 
 #offers img {
-	width:425px;height:300px;border: 1px solid #ccc;
+	width:500px;height:300px;border: 1px solid #ccc;
 	
     transform:scale(1);
  
@@ -355,15 +355,19 @@ body {
 	font-size: 14pt; padding-top:30px;
 }
 
-.description {
+#wrap_1 {
+	border-bottom: 1px solid #ccc;
 	
+	border-right: 1px solid #ccc;
 }
+
 
 
 #experience {
 	width: 1900px;
-	height: 600px;
+	height: 900px;
 	background-color: darkviolet;
+	background-image: url(../img/costa.jpg); 
 }
 
 #services {
