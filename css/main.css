@@ -365,10 +365,12 @@ body {
 
 #experience {
 	width: 1900px;
-	height: 900px;
+	height: 700px;
 	background-color: darkviolet;
-	background-image: url(../img/costa.jpg); 
+	background-image: url(../img/relaxing.jpg);
 }
+
+
 
 #services {
 	width: 1900px;
