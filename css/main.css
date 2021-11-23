@@ -332,32 +332,31 @@ body {
 	height: 800px;
 	background-color: darkorange;
 	border-bottom: 1px solid #bdb0b0;
-	display: flex; align-items: center;justify-content: center;
+	display: flex; align-items: center;justify-content: flex-start;
 	border: 1px solid #ccc; overflow: hidden; 	
 
 }
 
 #offers img {
-	width:300px;height:300px;border: 1px solid #ccc;
-	-webkit-transform:scale(1);
-    -moz-transform:scale(1);
-    -ms-transform:scale(1); 
-    -o-transform:scale(1);  
+	width:425px;height:300px;border: 1px solid #ccc;
+	
     transform:scale(1);
-    -webkit-transition:.2s;
-    -moz-transition:.2s;
-    -ms-transition:.2s;
-    -o-transition:.2s;
+ 
     transition:.2s;
 	
 }
 
 #offers :hover img {
-	-webkit-transform:scale(1.1);
-    -moz-transform:scale(1.1);
-    -ms-transform:scale(1.1);   
-    -o-transform:scale(1.1);
+
     transform:scale(1.1);
+}
+
+.tour {
+	font-size: 14pt; padding-top:30px;
+}
+
+.description {
+	
 }
 
 
