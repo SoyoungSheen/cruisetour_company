@@ -333,12 +333,16 @@ body {
 	background-color: darkorange;
 	border-bottom: 1px solid #bdb0b0;
 	display: flex; align-items: center; justify-content: center;
-	border: 1px solid #ccc; overflow: hidden; 	
+	border: 1px solid #ccc;  	
 
 }
 
+.container{
+	overflow: hidden;
+}
+
 #offers img {
-	width:500px;height:300px;border: 1px solid #ccc;
+	width:450px;height:300px;border: 1px solid #ccc;
 	
     transform:scale(1);
  
