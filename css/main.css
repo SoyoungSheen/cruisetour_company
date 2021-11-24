@@ -418,11 +418,21 @@ body {
 	background-color: crimson;
 	display: flex; align-content: stretch; justify-content: space-around; flex-wrap: wrap; flex-direction: column; align-items: center;
 	position: relative;
-	top:-48vh;
+	top:-47vh;
 }
 
 
 .map{width: 30px; height:auto;}
+
+#wrap_3{
+	display: flex; justify-content: space-around;
+}
+.box_3 {
+	width: 350px;
+	height: 250px;
+	background-color: darkgrey;
+	
+}
 
 
 
