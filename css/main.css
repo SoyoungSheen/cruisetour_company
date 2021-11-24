@@ -9,8 +9,12 @@ ul li {
 }
 
 body {
-	height: 100%;
-	margin: 0 0 0 230px;
+	width: calc(100%-230px);
+	width: -moz-calc(100%-230px);
+	width:-webkit-calc(100%-230px);
+	height:100%;
+	float:right;
+	margin-left:-230px;
 	background-color: yellow;
 	font-size: 14px;
 	line-height: 20px;
@@ -19,11 +23,20 @@ body {
 	line-height: 20px;
 }
 
+header {width: 230px;
+	height: 100%;
+position: fixed;
+left: 0px;
+	top: 0px;
+	}
+
 nav {
+
 	width: 230px;
 	height: 100%;
 	background-color: paleturquoise;
 	position: fixed;
+	
 	left: 0px;
 	top: 0px;
 	bottom: 0px;
@@ -93,16 +106,27 @@ li a:hover {
 	margin-left: 10px;
 }
 
+
+
+section {
+	position: absolute; top: 0; right: 0;
+	width: calc(100% - 230px);
+	width: -moz-calc(100% - 230px);
+	width:-webkit-calc(100% - 230px);}
+
 /* 페이지 띄워서 첫 화면의 모습입니다 */
 #slider {
-	width: 1700px;
+
 	height: 1000px;
 	background-color: darkgray;
-	background-image: url(../img/vacations.jpg);
+	background-image: url(../img/vacations.jpg); background-size: cover; 
+	background-repeat: no-repeat;
+
 }
 
+
 #dates {
-	width: 1700px;
+	
 	height: 150px;
 	background-color: bisque;
 }
@@ -179,7 +203,7 @@ w-select {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 1700px;
+	
 	height: 100px;
 	background-color: bisque;
 }
@@ -297,7 +321,7 @@ body {
 }
 
 #img {
-	width: 1900px;
+
 	height: 60px;
 	background-color: aquamarine;
 	display: flex; align-items: center; justify-content: center;
@@ -307,7 +331,7 @@ body {
 
 
 .text {
-	width: 1900px;
+
 	height: 100px;
 	background-color: rgb(47, 77, 67);
 	display: flex; align-items: center; justify-content: center;
@@ -315,7 +339,7 @@ body {
 }
 
 .text2 {
-	width: 1900px;
+	
 	height: 100px;
 	background-color: rgb(94, 136, 122);
 	display: flex; align-items: center; justify-content: center;
@@ -328,7 +352,7 @@ body {
 
 
 #offers {
-	width: 1900px;
+
 	height: 800px;
 	background-color: darkorange;
 	border-bottom: 1px solid #bdb0b0;
@@ -342,7 +366,10 @@ body {
 }
 
 #offers img {
-	width:450px;height:300px;border: 1px solid #ccc;
+		max-width: 100%;
+		vertical-align: middle;
+		display:inline-block;
+	border: 1px solid #ccc;
 	
     transform:scale(1);
  
@@ -352,7 +379,7 @@ body {
 
 #offers :hover img {
 
-    transform:scale(1.1);
+    transform:scale(1.1); cursor:pointer;
 }
 
 .tour {
@@ -368,7 +395,7 @@ body {
 
 
 #experience {
-	width: 1900px;
+	
 	height: 1200px;
 	background-color: darkviolet;
 	background-image: url(../img/cr.png);opacity: rgb(10, 89, 236) 0.5; display: flex; align-items: center; justify-content: center;
@@ -387,36 +414,39 @@ body {
 
 .icecream {width:450px; height:300px; background-color: ivory;}
 	
-}
+
 
 
 
 #services {
-	width: 1900px;
+
 	height: 1000px;
 	background-color: dodgerblue;
 }
 
 #experts {
-	width: 1900px;
+	
 	height: 600px;
 	background-color: blanchedalmond;
 }
 
 #destinations {
-	width: 1900px;
+	
 	height: 850px;
 	background-color: brown;
 }
 
 #ad {
-	width: 1900px;
+		width: -moz-calc(100%-230px);
 	height: 900px;
 	background-color: darksalmon;
 }
 
-footer {
-	width: 1900px;
+footer {position: absolute; bot: 0; right: 0;
+	width: calc(100% - 230px);
+	width: -moz-calc(100% - 230px);
+	width:-webkit-calc(100% - 230px);
+		
 	height: 130px;
 	background-color: darkturquoise;
 }
