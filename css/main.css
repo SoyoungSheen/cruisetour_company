@@ -457,6 +457,7 @@ body {
 
 .container_2{
 	width:100%; height:100px; display: flex;justify-content: space-around; align-items:center; font-size: x-large; font-weight: bold; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 40px;
+	margin-bottom: 100px;
 }
 
 .btn2 {
@@ -513,6 +514,14 @@ button:hover .wave {
 	height: 1000px;
 	background-color: dodgerblue;
 }
+
+	#core_sv{
+		width: 100%; height: 350px; background-color: yellowgreen; display: flex; justify-content: flex-start;align-items: center; align-content: space-around; flex-direction: column; flex-wrap: wrap;
+	padding-top: 8vh;}
+
+	.anchor_text {
+		margin-top: 30px;
+	}
 
 #experts {
 	
