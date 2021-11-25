@@ -509,7 +509,7 @@ button:hover .wave {
 	font-size: x-large; font-weight: bold; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#services {
+#services {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
 
 	height: 1000px;
 	background-color: dodgerblue;
@@ -519,8 +519,19 @@ button:hover .wave {
 		width: 100%; height: 350px; background-color: yellowgreen; display: flex; justify-content: flex-start;align-items: center; align-content: space-around; flex-direction: column; flex-wrap: wrap;
 	padding-top: 8vh;}
 
-	.anchor_text {
-		margin-top: 30px;
+	
+
+	.core_svs{font-size: 2.5vh; padding-top: 30px;
+		padding-bottom: 20px;
+
+	}
+
+	.core_explain {
+	 font-size: 2vh; padding-bottom: 10px;
+	}
+
+	.core_explain2 {
+		font-size: 2vh;
 	}
 
 #experts {
