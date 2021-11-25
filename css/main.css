@@ -557,9 +557,11 @@ button:hover .wave {
 	
 	.blabla{padding: 10px;}
 
+	
+
 #wrapping {
 	display: flex; justify-content: center; align-items: center; width: 350px;height: 900px; 
-	margin-right: 20px;
+	margin-right: 20px; background-color: violet;
 }
 
 #experts {
