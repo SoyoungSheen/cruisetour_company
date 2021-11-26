@@ -18,7 +18,7 @@ body {
 	background-color: yellow;
 	font-size: 14px;
 	line-height: 20px;
-	color: #333;
+	
 	font-size: 14;
 	line-height: 20px;
 }
@@ -540,7 +540,7 @@ button:hover .wave {
 	}
 
 	  #container_1 {
-		width: 350px; height: 250px; background-color: rgb(90, 119, 33);margin-right: 40px;
+		width: 350px; height: 250px; background-color: rgb(90, 119, 33);margin-right: 40px; 
 	}
 
 	#container_1 img {
@@ -560,8 +560,14 @@ button:hover .wave {
 	
 
 #wrapping {
-	display: flex; justify-content: center; align-items: center; width: 350px;height: 900px; 
+	display: flex; flex-wrap: wrap;justify-content: center;align-items:center;width: 350px;height: 900px; 
 	margin-right: 20px; background-color: violet;
+}
+
+.btn3 {width: 100px; height: 30px; cursor:pointer;}
+
+.blabla_2{
+	text-decoration: underline;
 }
 
 #experts {
