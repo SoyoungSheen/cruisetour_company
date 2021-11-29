@@ -15,7 +15,7 @@ body {
 	height: 100%;
 	float: right;
 	margin-left: -230px;
-	background-color: yellow;
+
 	font-size: 14px;
 	line-height: 20px;
 
@@ -212,10 +212,6 @@ w-select {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .blob-btn {
@@ -562,20 +558,17 @@ button:hover .wave {
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-top: 8vh;
-	
 }
 
 .core_svs {
 	font-size: 2.5vh;
 	padding-top: 30px;
 	padding-bottom: 20px;
-	
 }
 
 .core_explain {
 	font-size: 2vh;
 	padding-bottom: 10px;
-
 }
 
 .core_explain2 {
@@ -585,7 +578,7 @@ button:hover .wave {
 #explain {
 	height: 1200px;
 	width: 100%;
-	background-color: white;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -606,19 +599,18 @@ button:hover .wave {
 	justify-content: center;
 }
 
-.title{font-family: 'Permanent Marker', cursive;}
+.title {
+	font-family: "Permanent Marker", cursive;
+}
 
 .next_to {
 	width: 280px;
 	height: 250px;
-	background-color: white;
+
 	position: relative;
 	left: 70px;
 	bottom: 70px;
-	font-family: 'Secular One', sans-serif;
-
-.blabla {
-	padding: 10px;
+	font-family: "Secular One", sans-serif;
 }
 
 #wrapping {
@@ -643,7 +635,7 @@ button:hover .wave {
 
 #experts {
 	height: 600px;
-	background-color: blanchedalmond;
+	background-color: rgb(38, 169, 245);
 }
 
 #destinations {
