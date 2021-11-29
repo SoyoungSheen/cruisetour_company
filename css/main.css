@@ -34,7 +34,7 @@ header {
 nav {
 	width: 230px;
 	height: 100%;
-	background-color: paleturquoise;
+
 	position: fixed;
 
 	left: 0px;
@@ -49,14 +49,13 @@ nav {
 	float: none;
 	width: 230px;
 	height: 200px;
-	background-color: yellowgreen;
+	background-color: #1ecbe2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 ul {
-	background-color: cornflowerblue;
 	width: 230px;
 	height: auto;
 	padding-right: 50px;
@@ -93,7 +92,6 @@ li a:hover {
 #under_box {
 	width: 230px;
 	height: 150px;
-	background-color: coral;
 	margin-top: 80px;
 	display: flex;
 	align-items: center;
@@ -102,7 +100,7 @@ li a:hover {
 
 .box img {
 	border-radius: 80%;
-	background-color: rgb(107, 168, 248);
+	background-color: #1ecbe2;
 	margin-left: 10px;
 }
 
@@ -119,7 +117,7 @@ section {
 #slider {
 	height: 1000px;
 	background-color: darkgray;
-	background-image: url(../img/vacations.jpg);
+	background-image: url(../img/westerdam.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -316,7 +314,7 @@ w-select {
 
 #img {
 	height: 60px;
-	background-color: aquamarine;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -334,18 +332,9 @@ w-select {
 	justify-content: center;
 }
 
-.text2 {
-	height: 100px;
-	background-color: rgb(94, 136, 122);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-bottom: 100px;
-}
-
 #offers {
 	height: 800px;
-	background-color: darkorange;
+
 	border-bottom: 1px solid #bdb0b0;
 	display: flex;
 	align-items: center;
@@ -543,36 +532,41 @@ button:hover .wave {
 }
 
 #services {
-	height: 1000px;
+	height: 900px;
 	background-color: dodgerblue;
 	font-family: "Pacifico", cursive;
 }
 
 #core_sv {
 	height: 350px;
-	background-color: yellowgreen;
+
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	align-content: space-around;
 	flex-direction: column;
 	flex-wrap: wrap;
-	padding-top: 8vh;
+	padding-top: 10vh;
 }
 
 .core_svs {
 	font-size: 2.5vh;
 	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 2.5vh;
+	font-family: "Alfa Slab One", cursive;
 }
 
 .core_explain {
 	font-size: 2vh;
-	padding-bottom: 10px;
+	padding-bottom: 1.5vh;
+	color: rgb(209, 205, 205);
+	font-family: "Bangers", cursive;
 }
 
 .core_explain2 {
 	font-size: 2vh;
+	color: rgb(209, 205, 205);
+	font-family: "Bangers", cursive;
 }
 
 #explain {
