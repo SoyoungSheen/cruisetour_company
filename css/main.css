@@ -215,7 +215,6 @@ w-select {
 }
 
 body {
-	background: #333;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -473,10 +472,13 @@ body {
 .extended {
 	width: 100%;
 	height: 150px;
-	background-color: aqua;
+
 	border: 1px solid #ccc;
 }
 
+.web {
+	color: #1ecbe2;
+}
 .container_2 {
 	width: 100%;
 	height: 100px;
@@ -560,17 +562,20 @@ button:hover .wave {
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-top: 8vh;
+	
 }
 
 .core_svs {
 	font-size: 2.5vh;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	
 }
 
 .core_explain {
 	font-size: 2vh;
 	padding-bottom: 10px;
+
 }
 
 .core_explain2 {
@@ -601,6 +606,8 @@ button:hover .wave {
 	justify-content: center;
 }
 
+.title{font-family: 'Permanent Marker', cursive;}
+
 .next_to {
 	width: 280px;
 	height: 250px;
@@ -608,7 +615,7 @@ button:hover .wave {
 	position: relative;
 	left: 70px;
 	bottom: 70px;
-}
+	font-family: 'Secular One', sans-serif;
 
 .blabla {
 	padding: 10px;
