@@ -45,14 +45,21 @@ nav {
 
 #logo {
 	position: relative;
-	margin: 50px 40px 40px 0;
+	margin: 0;
 	float: none;
 	width: 230px;
 	height: 200px;
-	background-color: aquamarine;
+	background-color: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#logo img {
+	width: 15rem;
+	height: 15rem;
+	margin-top: 10rem;
+	margin-left: 3rem;
 }
 
 ul {
@@ -629,20 +636,74 @@ button:hover .wave {
 
 #experts {
 	height: 600px;
-	background-color: rgb(38, 169, 245);
+	width: auto;
+	background-color: cyan;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#devices {
+	width: 400px;
+	height: 600px;
+	background-color: darkcyan;
+}
+
+#list_experts {
+	width: 400px;
+	height: 400px;
+	background-color: yellow;
+}
+
+.computer {
+	opacity: 1;
+	transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(odg)
+		rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+	transform-style: preserve-3d;
+}
+
+.discount {
+	font-family: "Secular One", sans-serif;
+}
+
+.we {
+	font-size: 2.5rem;
+	font-family: "Permanent Marker", cursive;
+}
+
+.we_explain {
+	font-family: "Permanent Marker", cursive;
+}
+.boat {
+	width: 1rem;
+	height: 1rem;
+}
+
+.btn4 {
+	width: 15rem;
+	height: 3rem;
+	border-radius: 5px;
+	color: deepskyblue;
 }
 
 #destinations {
-	height: 850px;
+	height: 30rem;
+	width: auto;
 	background-color: brown;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
+.popular {
+	font-family: "Alfa Slab One", cursive;
+	font-size: 2.5vh;
+}
 #ad {
 	width: -moz-calc(100%-230px);
 	height: 900px;
 	background-color: darksalmon;
 }
-
 footer {
 	height: 130px;
 	background-color: darkturquoise;
