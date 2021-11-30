@@ -16,22 +16,22 @@ html {
 }
 
 body {
-	width: calc(100%-230px);
-	width: -moz-calc(100%-230px);
-	width: -webkit-calc(100%-230px);
+	width: calc(100%-23rem);
+	width: -moz-calc(100%-23rem);
+	width: -webkit-calc(100%-23rem);
 	height: 100%;
 	float: right;
-	margin-left: -230px;
+	margin-left: -23rem;
 
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.5rem;
+	line-height: 2rem;
 
 	font-size: 14;
-	line-height: 20px;
+	line-height: 2rem;
 }
 
 header {
-	width: 230px;
+	width: 23rem;
 	height: 100%;
 	position: fixed;
 	left: 0px;
@@ -39,7 +39,7 @@ header {
 }
 
 nav {
-	width: 230px;
+	width: 23rem;
 	height: 100%;
 
 	position: fixed;
@@ -54,8 +54,8 @@ nav {
 	position: relative;
 	margin: 0;
 	float: none;
-	width: 230px;
-	height: 200px;
+	width: 23rem;
+	height: 20rem;
 	background-color: none;
 	display: flex;
 	align-items: center;
@@ -63,31 +63,31 @@ nav {
 }
 
 #logo img {
-	width: 15rem;
-	height: 15rem;
+	width: 20rem;
+	height: 20rem;
 	margin-top: 10rem;
 	margin-left: 3rem;
 }
 
 ul {
-	width: 230px;
+	width: 23rem;
 	height: auto;
-	padding-right: 50px;
+	padding-right: 5rem;
 }
 
 li a {
 	display: block;
-	padding-right: 50px;
+	padding-right: 5rem;
 	padding-left: 0px;
 	color: cadetblue;
-	font-size: 15px;
-	font-weight: 700;
+	font-size: 1.5rem;
+	font-weight: 70rem;
 	text-align: right;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	display: block;
 	color: black;
-	padding: 10px;
+	padding: 1rem;
 	text-decoration: none;
 	font-weight: bolder;
 	list-style: none;
@@ -104,9 +104,9 @@ li a:hover {
 }
 
 #under_box {
-	width: 230px;
-	height: 150px;
-	margin-top: 80px;
+	width: 23rem;
+	height: 15rem;
+	margin-top: 8rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -115,21 +115,21 @@ li a:hover {
 .box img {
 	border-radius: 80%;
 	background-color: #1ecbe2;
-	margin-left: 10px;
+	margin-left: 1rem;
 }
 
 section {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: calc(100% - 230px);
-	width: -moz-calc(100% - 230px);
-	width: -webkit-calc(100% - 230px);
+	width: calc(100% - 23rem);
+	width: -moz-calc(100% - 23rem);
+	width: -webkit-calc(100% - 23rem);
 }
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
 #slider {
-	height: 1000px;
+	height: 100rem;
 	background-color: darkgray;
 	background-image: url(../img/westerdam.JPG);
 	background-size: cover;
@@ -138,20 +138,20 @@ section {
 }
 
 #dates {
-	height: 150px;
+	height: 15rem;
 	background-color: bisque;
 }
 
 .text_field {
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	color: #0b5e73;
-	font-size: 14px;
-	font-weight: 400;
+	font-size: 1.5rem;
+	font-weight: 40rem;
 	text-align: left;
 	letter-spacing: 0;
 	text-transform: none;
-	margin-left: 20px;
-	padding: 10px;
+	margin-left: 2rem;
+	padding: 1rem;
 }
 
 input::placeholder {
@@ -160,8 +160,8 @@ input::placeholder {
 }
 
 input {
-	font-size: 20px;
-	padding: 10px;
+	font-size: 2rem;
+	padding: 1rem;
 }
 
 textarea::placeholder {
@@ -171,16 +171,16 @@ textarea::placeholder {
 
 label {
 	display: block;
-	margin-bottom: 5px;
+	margin-bottom: 0.5rem;
 }
 
 w-input,
 w-select {
 	display: block;
 	width: 100%;
-	height: 38px;
-	padding: 8px 12px;
-	margin-bottom: 10px;
+	height: 4rem;
+	padding: 1rem 1.5rem;
+	margin-bottom: 1rem;
 	line-height: 1.4285;
 
 	background-color: #ffffff;
@@ -188,8 +188,8 @@ w-select {
 }
 
 #day {
-	width: 200px;
-	padding: 10px;
+	width: 20rem;
+	padding: 1rem;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
 		sans-serif;
 	border: 1px solid #999;
@@ -207,7 +207,7 @@ w-select {
 }
 
 .max {
-	margin-left: 100px;
+	margin-left: 10rem;
 }
 
 .send {
@@ -215,7 +215,7 @@ w-select {
 	align-items: center;
 	justify-content: center;
 
-	height: 100px;
+	height: 10rem;
 	background-color: bisque;
 }
 *,
@@ -229,12 +229,12 @@ w-select {
 .blob-btn {
 	z-index: 1;
 	position: relative;
-	padding: 20px 46px;
-	margin-bottom: 30px;
+	padding: 2rem 4.5rem;
+	margin-bottom: 3rem;
 	text-align: center;
 	text-transform: uppercase;
 	color: #4cebeb;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: bold;
 	background-color: transparent;
 	outline: none;
@@ -327,17 +327,17 @@ w-select {
 }
 
 #img {
-	height: 60px;
+	height: 6rem;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 200px;
-	padding-bottom: 50px;
+	padding-top: 20rem;
+	padding-bottom: 5rem;
 }
 
 .text {
-	height: 100px;
+	height: 10rem;
 	background-color: white;
 	font-size: 3vh;
 	font-family: "Faster One", cursive;
