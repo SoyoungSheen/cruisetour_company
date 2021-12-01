@@ -694,24 +694,103 @@ button:hover .wave {
 }
 
 #destinations {
-	height: 30rem;
+	height: 40rem;
 	width: auto;
 	background-color: brown;
-	display: flex;
+	padding-top: 10rem;
+	display: flex; 
+flex-direction: column;
+	align-items: space-between;
+	
+}
+
+#destiny{
+	display: flex;flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
+	flex-direction: column
+
+
+
 }
 
 .popular {
 	font-family: "Alfa Slab One", cursive;
 	font-size: 2.5vh;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 #ad {
 	width: -moz-calc(100%-230px);
-	height: 900px;
+	height: 90rem;
 	background-color: darksalmon;
+	
+	
 }
+#ad :hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.tourbox_container{
+	overflow: hidden;
+	display: flex;align-items: center;justify-content: center; }
+
+#ad img {
+	max-width: 100%;
+	vertical-align:middle;
+	display:inline-block;
+	border: 1px #ccc solid;
+
+	transform: scale(1);
+	transition: 0.2s 0.1s;
+}
+
+
+
+
+#special_tours {
+	height: 60rem;
+	background-color: yellowgreen;
+}
+
+
+#special_tours img {
+width:100%; border: 1px #ccc solid; position: relative;
+}
+
+
+#special_tours :hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+.tours_container {
+	display: flex; overflow: hidden;
+}
+
+.price_container {
+	display: flex; justify-content: space-around;
+	font-family: "Bangers", cursive;
+	border: 2px sollid #ccc;
+	height: 7rem;
+	width: 100%;
+	background-color: tomato;
+	padding-top: 2rem;
+	
+	}
+
+	.tour_description {
+		width: 100%;
+		height:15rem;
+		background-color: thistle;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-bottom: 3rem;
+	}
 footer {
-	height: 130px;
+	height: 13rem;
 	background-color: darkturquoise;
 }
+.btn5{ display: flex; justify-content: flex-start; align-items: center; padding-top: 1rem;}
