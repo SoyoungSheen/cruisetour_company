@@ -644,7 +644,7 @@ button:hover .wave {
 #experts {
 	height: 600px;
 	width: auto;
-	background-color: cyan;
+	background-color: #ccc;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -653,25 +653,48 @@ button:hover .wave {
 #devices {
 	width: 400px;
 	height: 600px;
-	background-color: darkcyan;
 }
+
+#img_devices {
+	position: absolute;
+	left: 10rem;
+	width: 10rem;
+	height: 5rem;
+	margin-left: -5rem;
+	animation-timing-function: linear;
+	animation-duration: 3s 2;
+}
+
+.computer {
+	top: 140px;
+	animation-iteration-count: infinite
+}
+
+@keyframes iteration-count {
+from {
+	left:100px;
+}
+
+to {
+	left: 300px;
+}
+}
+
 
 #list_experts {
 	width: 400px;
 	height: 400px;
-	background-color: yellow;
+
 }
 
-.computer {
-	opacity: 1;
-	transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(odg)
-		rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-	transform-style: preserve-3d;
-}
+
 
 .discount {
 	font-family: "Secular One", sans-serif;
+	width: 20rem;height: fit-content;
 }
+
+.discount li {width: 40rem; padding:1rem;}
 
 .we {
 	font-size: 2.5rem;
@@ -696,7 +719,7 @@ button:hover .wave {
 #destinations {
 	height: 40rem;
 	width: auto;
-	background-color: brown;
+
 	padding-top: 10rem;
 	display: flex; 
 flex-direction: column;
@@ -751,7 +774,7 @@ flex-direction: column;
 
 #special_tours {
 	height: 60rem;
-	background-color: yellowgreen;
+	
 }
 
 
@@ -765,32 +788,109 @@ width:100%; border: 1px #ccc solid; position: relative;
 	cursor: pointer;
 }
 
-
+#wrap_container{
+	border-right: #ccc 1px solid;
+	border-left: #ccc 1px solid;
+	border-bottom: #ccc 1px solid;
+	
+}
 .tours_container {
 	display: flex; overflow: hidden;
 }
 
-.price_container {
+.inside_container {
 	display: flex; justify-content: space-around;
 	font-family: "Bangers", cursive;
 	border: 2px sollid #ccc;
-	height: 7rem;
+	height: 8rem;
 	width: 100%;
-	background-color: tomato;
+	
 	padding-top: 2rem;
 	
 	}
 
+	.in_text{
+		width: 80%; height: auto;
+	
+	}
+.in_num{
+		width: 50%; height: auto;
+	
+		display:flex;flex-direction: column; flex-wrap: nowrap;align-items: flex-end;
+		padding-right: 4rem;
+	}
+
+
+
 	.tour_description {
 		width: 100%;
 		height:15rem;
-		background-color: thistle;
+	
 		padding-left: 2rem;
 		padding-right: 2rem;
 		padding-bottom: 3rem;
 	}
-footer {
-	height: 13rem;
-	background-color: darkturquoise;
+
+.btn5{ display: flex; justify-content: flex-start; align-items: center; padding-top: 1rem; padding-left: 1rem;  }
+
+.in_text{
+	display: flex;justify-content: center; align-items:center;
 }
-.btn5{ display: flex; justify-content: flex-start; align-items: center; padding-top: 1rem;}
+.price {
+	font-size:2rem;
+}
+
+#newsletter {
+	height: 20rem; background-color: darkseagreen; display: flex;align-content: space-around;
+}
+
+#news {
+	width: 60%; height: 20rem; background-color: indianred; display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+
+.signup{
+	font-family: "Alfa Slab One", cursive;
+}
+
+#input_text{
+	width:40%; height: 20rem;background-color: hotpink;
+	display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+
+input{
+	cursor:text;
+	border-radius: 0.5rem;
+}
+
+.btn6{
+	width: 26.5rem;
+	height: 4.5rem;
+	margin-top: 2rem;
+	border-radius: 0.5rem;
+	font-size: 2rem;
+	cursor: pointer;
+	background-color:#1ECBE2;
+}
+
+.follow{
+	    font-family: "Permanent Marker", cursive;
+}
+
+#prepare {
+	height:30rem;
+	display: flex;flex-direction: column; align-items: center;justify-content: center;
+}
+
+.text_prepare {
+	padding-top:2rem;font-family: "Permanent Marker", cursive;
+	font-size: 2.5rem; color: #1ECBE2;
+}
+.text_explaining {
+	padding-top:2rem;font-family: "Permanent Marker", cursive;
+  color:#ccc;
+}
+footer {
+	height: 20rem;
+	background-color: darkturquoise;
+	font-size: 3.5rem;
+}
