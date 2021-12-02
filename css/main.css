@@ -63,8 +63,8 @@ nav {
 }
 
 #logo img {
-	width: 20rem;
-	height: 20rem;
+	width: 10rem;
+	height: 10rem;
 	margin-top: 10rem;
 	margin-left: 3rem;
 }
@@ -889,6 +889,25 @@ input{
 	padding-top:2rem;font-family: "Permanent Marker", cursive;
   color:#ccc;
 }
+
+#devices {
+	height: 50rem; width: 100%; background-color: lawngreen;
+}
+
+#ad {
+
+	width:100%; height: 30rem; background-color: lemonchiffon;
+}
+
+#center_logo {
+	height: 30rem; background-color: mediumseagreen;
+	display: flex;flex-direction: column;align-items: center;justify-content: center;
+}
+
+.cruise {
+	padding-top:10rem;
+}
+
 footer {
 	height: 20rem;
 	background-color: darkturquoise;
