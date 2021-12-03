@@ -665,10 +665,18 @@ button:hover .wave {
 	animation-duration: 3s 2;
 }
 
+
 .computer {
 	top: 140px;
-	animation-iteration-count: infinite
+	width: 50rem;
+	height: 50rem;
+	border-radius: 1rem;
+	animation-iteration-count: infinite;
 }
+
+
+
+
 
 @keyframes iteration-count {
 from {
