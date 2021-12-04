@@ -162,11 +162,12 @@ section {
 	letter-spacing: 2rem;
 	animation-name: moveInLeft;
 	animation-duration: 1s;
-
+	display: block;
 	animation-timing-function: ease-out;
 }
 
 .text-under {
+	display: block;
 	font-size: 2rem;
 	font-weight: 700;
 	letter-spacing: 2.5rem;
