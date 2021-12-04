@@ -60,6 +60,9 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
+	animation-duration: 3s;
 }
 
 #logo img {
@@ -149,6 +152,7 @@ section {
 .text-box {
 	position: absolute;
 	width: 100rem;
+
 	top: 60%;
 	left: 50%;
 	font-family: sans-serif;
@@ -221,6 +225,17 @@ h1 {
 	}
 }
 
+.btn:link,
+:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 40px;
+}
+
+.btn-white {
+	background-color: #fff;
+	color: #777;
+}
 #dates {
 	height: 15rem;
 	background-color: bisque;
