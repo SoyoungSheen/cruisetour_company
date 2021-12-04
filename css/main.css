@@ -152,12 +152,13 @@ section {
 .text-box {
 	position: absolute;
 	width: 100rem;
-
-	top: 60%;
+	height: 20rem;
+	top: 50%;
 	left: 50%;
 	font-family: sans-serif;
 	transform: translate(-50%, -50%);
 	color: #fff;
+	text-align: center;
 }
 
 .text-header {
@@ -168,14 +169,13 @@ section {
 	animation-duration: 1s;
 	display: block;
 	animation-timing-function: ease-out;
-	padding-bottom: 2rem;
 }
 
 .text-under {
 	display: block;
 	font-size: 2rem;
 	font-weight: 700;
-	letter-spacing: 2.5rem;
+	letter-spacing: 3rem;
 	animation-name: moveInRight;
 	animation-timing-function: ease-out;
 	animation-duration: 2s;
@@ -225,16 +225,68 @@ h1 {
 	}
 }
 
+@keyframes moveInButton {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.2);
+}
 .btn:link,
 :visited {
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 15px 40px;
+	display: inline-block;
+	border-radius: 10rem;
+	transition: all 0.2s;
+	position: relative;
+	margin-bottom: 20px;
 }
 
 .btn-white {
 	background-color: #fff;
 	color: #777;
+}
+
+.btn::after {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border-radius: 10rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transition: all 0.4s;
+}
+
+.btn:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+}
+
+.btn-white::after {
+	background-color: #fff;
+}
+
+.btn-animated {
+	animation: moveInButton 0.5s ease-out 0.75s;
 }
 #dates {
 	height: 15rem;
