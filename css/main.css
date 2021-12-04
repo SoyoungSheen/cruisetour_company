@@ -164,6 +164,7 @@ section {
 	animation-duration: 1s;
 	display: block;
 	animation-timing-function: ease-out;
+	padding-bottom: 2rem;
 }
 
 .text-under {
@@ -173,7 +174,8 @@ section {
 	letter-spacing: 2.5rem;
 	animation-name: moveInRight;
 	animation-timing-function: ease-out;
-	animation-duration: 1s;
+	animation-duration: 2s;
+	animation-delay: 1s;
 }
 
 h1 {
@@ -206,7 +208,7 @@ h1 {
 @keyframes moveInRight {
 	0% {
 		opacity: 0;
-		transform: translateX(50px);
+		transform: translateX(100px);
 	}
 
 	80% {
