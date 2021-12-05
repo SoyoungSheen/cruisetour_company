@@ -800,6 +800,10 @@ button:hover .wave {
 	width: 350px;
 	height: 900px;
 	margin-right: 20px;
+	animation-name: moveInRight;
+	animation-timing-function: ease-in;
+
+	animation-duration: 3s;
 }
 
 .btn3 {
@@ -815,7 +819,6 @@ button:hover .wave {
 #experts {
 	height: 600px;
 	width: auto;
-	background-color: #ccc;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -841,7 +844,10 @@ button:hover .wave {
 	width: 50rem;
 	height: 50rem;
 	border-radius: 1rem;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
+	animation-duration: 3s;
 }
 
 @keyframes iteration-count {
