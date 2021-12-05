@@ -289,6 +289,7 @@ h1 {
 
 .btn-animated {
 	animation: moveInButton 0.5s ease-out 0.75s;
+	animation-fill-mode: backwards;
 }
 #dates {
 	height: 15rem;
@@ -557,6 +558,11 @@ w-select {
 	width: 30px;
 	display: flex;
 	align-items: flex-start;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-delay: 5s;
 }
 
 .icecream {
@@ -581,10 +587,22 @@ w-select {
 
 .ultimate {
 	color: white;
+	letter-spacing: 0.5rem;
+	animation-name: moveInLeft;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-delay: 5s;
 }
 
 .beautiful {
 	color: rgb(189, 186, 186);
+	letter-spacing: 1rem;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-delay: 5s;
 }
 
 .map {
