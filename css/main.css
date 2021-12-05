@@ -623,6 +623,8 @@ w-select {
 	background-color: darkgrey;
 	margin-left: 30px;
 	background-color: yellow;
+
+	font-family: "Secular One", sans-serif;
 }
 
 .box_3 img {
@@ -637,6 +639,9 @@ w-select {
 	position: relative;
 	bottom: 255px;
 	left: 150px;
+	padding-left: 1rem;
+
+	font-family: "Secular One", sans-serif;
 }
 
 .extended {
@@ -781,6 +786,7 @@ button:hover .wave {
 
 .title {
 	font-family: "Permanent Marker", cursive;
+	font-size: 2.5rem;
 }
 
 .next_to {
@@ -1033,23 +1039,37 @@ button:hover .wave {
 	height: 1.5em;
 }
 footer {
-	height: 20rem;
-	background-color: darkturquoise;
+	height: 15rem;
+	background-color: black;
 	font-size: 3.5rem;
 }
 
 #wrapping_footer {
 	display: flex;
+	align-content: space-around;
+	justify-content: space-around;
 }
 
 .container_left {
+	color: rgb(233, 232, 232);
+	padding-top: 2rem;
+	padding-left: 2rem;
 	width: 30rem;
 	height: 15rem;
-	background-color: brown;
+
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
 
-.containter_right {
+.container_right {
 	width: 30rem;
 	height: 15rem;
-	background-color: blue;
+
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.container_right img {
+	border-radius: 80%;
+	background-color: #1ecbe2;
+	margin-left: 1rem;
 }
