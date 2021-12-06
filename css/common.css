@@ -51,7 +51,7 @@ a{
   }
 
 
-section {
+section {display:none;
 	position: initial;
 
 	width: 100%;
