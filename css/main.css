@@ -20,6 +20,8 @@ html {
 
 #myNav{display: none;}
 
+#messenger{display:none;}
+
 body {
 	width: calc(100%-23rem);
 	width: -moz-calc(100%-23rem);
@@ -107,6 +109,9 @@ li a.current {
 	color: white;
 }
 
+.bird {
+	opacity:0.5;
+}
 li a:hover {
 	background-color: rgb(43, 134, 194);
 	color: white;
