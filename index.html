@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="css/common.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,15 +17,28 @@
 
   <link rel="shortcut icon" type="image/png" href="img/logo.png">
 
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0";
+    }
+  </script>
+  ​
+
 
 </head>
 
 <body>
   <header>
-
     <nav>
-
       <div id="logo">
         <a href="#"><img src="img/logo.png" alt="logo">
 
@@ -35,7 +48,16 @@
 
 
 
-      <ul class="nav_list">
+      <div id="ship_logo">
+        <a href="#"><img src="img/logo.png" alt="logo" class="ship_logo">
+
+        </a>
+
+      </div>
+
+
+
+      <ul class="a">
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">TOURS</a></li>
@@ -44,6 +66,26 @@
         <li><a href="#">CONTACT</a></li>
 
       </ul>
+
+
+      <img src="img/menu.png" alt="menu" id=b onclick="openNav()">
+
+
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+
+        <ul class="overlay-content">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">TOURS</a></li>
+          <li><a href="#">*TOURS</a></li>
+          <!-- 밑에 투어서비스 아이콘 이용해서 사용하기 -->
+          <li><a href="#">CONTACT</a></li>
+
+        </ul>
+
+      </div>
 
       <!--아이콘 들어갈 상자의 시작점입니다-->
       <div id="under_box">
@@ -119,6 +161,8 @@
 
     <div id="offers">
 
+
+
       <div id="wrap_1">
         <div id="dolphin_tour">
           <div class="container"><img src="img/dolphin.jpg" alt="dolphin"></div>
@@ -130,12 +174,7 @@
           <hr>
 
           <p class="description">
-            &nbsp;&nbsp;&nbsp;Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis
-            viverra ornare, eros
-            dolor.
-            Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis viverra ornare,
-            eros
-            dolor
+            &nbsp;&nbsp;&nbsp; Cabo San Lucas, mexico
           </p>
         </div>
       </div>
@@ -148,12 +187,7 @@
             &nbsp;&nbsp;&nbsp; penguin-island tour</p>
           <hr>
           <p class="description">
-            &nbsp;&nbsp;&nbsp;Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis
-            viverra ornare, eros
-            dolor.
-            Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis viverra ornare,
-            eros
-            dolor</p>
+            &nbsp;&nbsp;&nbsp;Ushuaia, Argentina</p>
 
         </div>
       </div>
@@ -166,11 +200,7 @@
             &nbsp;&nbsp;&nbsp; Aloha Hawaii tour</p>
           <hr>
           <p class="description">
-            &nbsp;&nbsp;&nbsp;Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor.
-            Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis viverra ornare,
-            eros
-            dolor
+            &nbsp;&nbsp;&nbsp; Hawaii,USA
           </p>
         </div>
       </div>
@@ -185,12 +215,7 @@
 
           <hr>
           <p class="description">
-            &nbsp;&nbsp;&nbsp;Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis
-            viverra ornare, eros
-            dolor.
-            Suspendisse varius enim in nellumin eros elementum nelly tristique. Duis cursus, mi quis viverra ornare,
-            eros
-            dolor
+            &nbsp;&nbsp;&nbsp;Victoria, CA
           </p>
         </div>
       </div>
@@ -466,9 +491,9 @@
       <div id="list_experts">
         <p class="we">WE ARE EXPERTS!</p><br><br>
         <p class="we_explain">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-          tristique.
-          Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
+          Dear, passengers!
+          we are expert. We are here to help what you need from the beginning of the journey and the end, of course.
+          Please feel free to contact our service center. And here is what we are offering right now.
           <br><br><br>
         </p>
 
