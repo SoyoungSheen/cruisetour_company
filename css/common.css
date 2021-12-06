@@ -86,12 +86,15 @@ a{
 section {
 	position: initial;
   
+  
  
 
 	width: 100%;
 
 }
 
+.text-header{display: none;}
+.text-under{display: none;}
 
 @media (min-width:600px) {
 
