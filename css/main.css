@@ -308,6 +308,110 @@ h1 {
 }
 
 
+.max {
+	margin-left: 10rem;
+}
+
+.blob-btn {
+	z-index: 1;
+	position: relative;
+	padding: 2rem 4.5rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #4cebeb;
+	font-size: 1.6rem;
+	font-weight: bold;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	transition: color 0.5s;
+	cursor: pointer;
+}
+.blob-btn:before {
+	content: "";
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: 6px solid #0fe0f5;
+}
+.blob-btn:after {
+	content: "";
+	z-index: -2;
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 100%;
+	height: 100%;
+	border: 6px solid #222;
+	transition: all 0.3s 0.2s;
+}
+.blob-btn:hover {
+	color: #222;
+}
+.blob-btn:hover:after {
+	transition: all 0.3s;
+	left: 0;
+	top: 0;
+}
+.blob-btn__inner {
+	z-index: -1;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.blob-btn__blobs {
+	position: relative;
+	display: block;
+	height: 100%;
+	filter: url("#goo");
+}
+.blob-btn__blob {
+	position: absolute;
+	top: 6px;
+	width: 25%;
+	height: 100%;
+	background: #0fe0f5;
+	border-radius: 100%;
+	transform: translate3d(0, 150%, 0) scale(1.7);
+	transition: transform 0.45s;
+}
+@supports (filter: url("#goo")) {
+	.blob-btn__blob {
+		transform: translate3d(0, 150%, 0) scale(1.4);
+	}
+}
+.blob-btn__blob:nth-child(1) {
+	left: 0%;
+	transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) {
+	left: 30%;
+	transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) {
+	left: 60%;
+	transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) {
+	left: 90%;
+	transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob {
+	transform: translateZ(0) scale(1.7);
+}
+@supports (filter: url("#goo")) {
+	.blob-btn:hover .blob-btn__blob {
+		transform: translateZ(0) scale(1.4);
+	}
+}
+
 #img {
 	height: 6rem;
 
@@ -495,7 +599,7 @@ h1 {
 
 .btn2 {
 	display: inline-block;
-	width: 300px;
+	width: 20rem;
 	height: 80px;
 	position: relative;
 	font-size: 20px;
@@ -503,7 +607,7 @@ h1 {
 	cursor: pointer;
 	padding: 0.8em 1em;
 	border: 1px solid #333;
-	border-radius: 10px;
+	border-radius: 10rem;
 	overflow: hidden;
 	box-shadow: 0 1px 3px rgba(black, 0.2);
 	background: lighten(#f0f4c3, 10%);
@@ -521,7 +625,7 @@ h1 {
 	margin-left: -160px;
 	margin-bottom: -350px;
 	transform-origin: 50% 48%;
-	border-radius: 30%;
+	border-radius: 50%;
 
 	transition-duration: 0.75s;
 	transition-property: margin-bottom;
@@ -729,6 +833,7 @@ button:hover .wave {
 	height: 3rem;
 	border-radius: 5px;
 	color: deepskyblue;
+	cursor: pointer;
 }
 
 #destinations {
