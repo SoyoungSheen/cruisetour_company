@@ -143,7 +143,7 @@ section {
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
 #slider {
-	font-family: "Pacifico", cursive;
+
 	text-transform: uppercase;
 	height: 100rem;
 
@@ -172,10 +172,12 @@ section {
 	text-align: center;
 }
 
+
+ #text-box-ver2 {display: none;}
 .text-header {
-	font-size: 6rem;
+	font-size: 4rem;
 	font-weight: 600;
-	letter-spacing: 2rem;
+	
 	animation-name: moveInLeft;
 	animation-duration: 1s;
 	display: block;
