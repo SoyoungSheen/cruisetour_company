@@ -144,18 +144,54 @@ section {width: 100%;
 
 
 #wrap_1 {
-  display: flex; width:90%; height: 35rem; border:none;
+  display: flex; flex-direction: column; width:90%; height: 35rem; border:none;
 }
 
 .container :nth-child(1) img { width: 100%; height: 100%;}
 
 
+#wrap_3{
+      display: flex;
+    width: 90%;
+    height: 35rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
 
+#experience {
+    width: 100%;
+    height: 1200px;
+    background-image: url(../img/cr.png);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
 
+.extended {
+    width: 90%;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding-left: 5rem;
+}
 
-	
+.core_explain {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-family: "Bangers", cursive;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    letter-spacing: 1px;
+    color: #ccc;
+
 
 }
+
+
 
 
 @media (min-width:600px) {
