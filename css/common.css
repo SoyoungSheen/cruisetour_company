@@ -191,8 +191,15 @@ section {width: 100%;
 
 }
 
-#explain {display: none;}
 
+#container_1{
+  width:90%;
+  height: 5rem;
+  background-color: aquamarine;
+}
+
+.blabla, .blabla_2{
+  display:none;
 }
 
 
