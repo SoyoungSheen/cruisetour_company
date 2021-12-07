@@ -276,6 +276,11 @@ a {
 	padding-bottom: 4rem;
 }
 
+#experts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 @media (min-width: 600px) {
 }
 
