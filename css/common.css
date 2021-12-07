@@ -172,9 +172,9 @@ section {width: 100%;
 }
 
 .extended {
-    width: 90%;
+    width: 95%;
     height: 150px;
-    border: 1px solid #ccc;
+    
     padding-left: 5rem;
 }
 
@@ -190,6 +190,12 @@ section {width: 100%;
 
 
 }
+
+#explain {display: none;}
+
+}
+
+
 
 
 
