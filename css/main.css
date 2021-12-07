@@ -448,7 +448,7 @@ h1 {
 
 #img {
 	height: 6rem;
-
+  
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -456,11 +456,13 @@ h1 {
 	padding-bottom: 5rem;
 }
 
+
+
 .text {
 	height: 10rem;
 	background-color: white;
 	font-size: 2rem;
-	font-family: "Alfa Slab One", cursive;
+	font-family: "Alfa Slab One";
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -479,10 +481,15 @@ h1 {
 .container {
 	overflow: hidden;
 	width: 42rem;
+	
 }
 
+
+
 #offers img {
-	max-width: 100%;
+		max-width: 100%;
+		
+	
 	vertical-align: middle;
 	display: inline-block;
 	border: 1px solid #ccc;
@@ -491,6 +498,7 @@ h1 {
 
 	transition: 0.2s;
 }
+
 
 #offers :hover img {
 	transform: scale(1.1);

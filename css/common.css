@@ -126,7 +126,30 @@ section {width: 100%;
   padding-left:50rem;
 }
 
- 
+#offers {
+    height: 150rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+#offers :hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+#wrap_1 {
+  display: flex; width:90%; height: 35rem; border:none;
+}
+
+.container :nth-child(1) img { width: 100%; height: 100%;}
+
+
 
 
 
