@@ -4,7 +4,6 @@
 	padding: 0;
 }
 
-
 ul li {
 	list-style: none;
 }
@@ -16,11 +15,17 @@ html {
 	font-size: 62.5%;
 }
 
-#b{display:none;}
+#b {
+	display: none;
+}
 
-#myNav{display: none;}
+#myNav {
+	display: none;
+}
 
-#messenger{display:none;}
+#messenger {
+	display: none;
+}
 
 body {
 	width: calc(100%-23rem);
@@ -79,7 +84,9 @@ nav {
 	margin-left: 3rem;
 }
 
-.menu {display: none;}
+.menu {
+	display: none;
+}
 ul {
 	width: 23rem;
 	height: auto;
@@ -110,7 +117,7 @@ li a.current {
 }
 
 .bird {
-	opacity:0.5;
+	opacity: 0.5;
 }
 li a:hover {
 	background-color: #1ecbe2;
@@ -143,7 +150,6 @@ section {
 
 /* 페이지 띄워서 첫 화면의 모습입니다 */
 #slider {
-
 	text-transform: uppercase;
 	height: 100rem;
 
@@ -172,12 +178,13 @@ section {
 	text-align: center;
 }
 
-
- #text-box-ver2 {display: none;}
+#text-box-ver2 {
+	display: none;
+}
 .text-header {
 	font-size: 4rem;
 	font-weight: 600;
-	
+
 	animation-name: moveInLeft;
 	animation-duration: 1s;
 	display: block;
@@ -258,7 +265,7 @@ h1 {
 		transform: translateX(600px);
 	}
 
-		40% {
+	40% {
 		transform: translateX(400px);
 	}
 
@@ -271,7 +278,6 @@ h1 {
 		transform: translate(200px);
 	}
 }
-
 
 .btn:hover {
 	transform: translateY(-3px);
@@ -326,8 +332,6 @@ h1 {
 	animation-fill-mode: backwards;
 }
 
-
-
 #day {
 	width: 20rem;
 	padding: 1rem;
@@ -340,7 +344,6 @@ h1 {
 	-moz-appearance: none;
 	/*appearance: none;*/
 }
-
 
 .max {
 	margin-left: 10rem;
@@ -448,15 +451,13 @@ h1 {
 
 #img {
 	height: 6rem;
-  
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding-top: 20rem;
 	padding-bottom: 5rem;
 }
-
-
 
 .text {
 	height: 10rem;
@@ -475,21 +476,16 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 
 .container {
 	overflow: hidden;
 	width: 42rem;
-	
 }
 
-
-
 #offers img {
-		max-width: 100%;
-		
-	
+	max-width: 100%;
+
 	vertical-align: middle;
 	display: inline-block;
 	border: 1px solid #ccc;
@@ -498,7 +494,6 @@ h1 {
 
 	transition: 0.2s;
 }
-
 
 #offers :hover img {
 	transform: scale(1.1);
@@ -511,14 +506,14 @@ h1 {
 	font-family: "Bangers", cursive;
 }
 
-.description{
+.description {
 	font-family: "Secular One", sans-serif;
 }
 
-
 #wrap_1 {
 	border-bottom: 1px solid #ccc;
-	height:26rem;
+	width: 25%;
+	height: 26rem;
 	border-right: 1px solid #ccc;
 }
 
@@ -749,14 +744,14 @@ button:hover .wave {
 	align-items: center;
 }
 
-#container_1 {
+.container_1 {
 	width: 350px;
 	height: 250px;
 
 	margin-right: 40px;
 }
 
-#container_1 img {
+.container_1 img {
 	width: 65px;
 	height: 65px;
 	display: flex;
@@ -779,7 +774,7 @@ button:hover .wave {
 	font-family: "Secular One", sans-serif;
 }
 
-#wrapping {
+.wrapping {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -792,8 +787,6 @@ button:hover .wave {
 
 	animation-duration: 3s;
 }
-
-
 
 .btn3 {
 	width: 100px;
@@ -885,8 +878,6 @@ button:hover .wave {
 	color: deepskyblue;
 	cursor: pointer;
 }
-
-
 
 #destinations {
 	height: 40rem;
