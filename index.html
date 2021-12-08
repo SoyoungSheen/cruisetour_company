@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/common.css">
 
+  <link rel="stylesheet" href="css/reset.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -37,6 +39,7 @@
 </head>
 
 <body>
+
   <header>
     <nav>
       <div id="container_min">
@@ -48,45 +51,24 @@
         </div>
 
 
-
-
-
-
-
-        <ul class="a">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">TOURS</a></li>
-          <li><a href="#">*TOURS</a></li>
-          <!-- 밑에 투어서비스 아이콘 이용해서 사용하기 -->
-          <li><a href="#">CONTACT</a></li>
-
-        </ul>
-
-
-        <div id="b_box"><img src="img/menu.png" alt="menu" id=b onclick="openNav();"></div>
+        <!--<div id="b_box"><img src="img/menu.png" alt="menu" id=b onclick="openNav();"></div>-->
 
       </div>
 
-      <div id="myNav" class="overlay">
+      <!--<div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav();">x</a>
+      -->
+      <ul class="overlay-content">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">TOURS</a></li>
+        <li><a href="#">*TOURS</a></li>
+        <!-- 밑에 투어서비스 아이콘 이용해서 사용하기 -->
+        <li><a href="#">CONTACT</a></li>
 
-        <ul class="overlay-content">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">TOURS</a></li>
-          <li><a href="#">*TOURS</a></li>
-          <!-- 밑에 투어서비스 아이콘 이용해서 사용하기 -->
-          <li><a href="#">CONTACT</a></li>
 
-          <div class="messenger">
-            <a href="#"><img src="img/facebook.png" alt=""></a>
-            <a href="#"><img src="img/insta.png" alt=""></a>
-            <a href="#"><img src="img/twiiter.png" alt="" class="bird"></a>
 
-          </div>
-
-        </ul>
+      </ul>
 
       </div>
 
@@ -111,6 +93,8 @@
   </header>
 
 
+
+
   <section>
 
     <div id="slider">
@@ -126,29 +110,8 @@
       </div>
 
 
-      <!--모바일용 사이즈입니다-->
-      <!--mobile for purpose-->
-      <div id="text-box-ver2">
-        <h1 class="text-container">
-          <span class="text-first">the cruise tour<br><br></span>
-          <span class="text-second">life-long<br>
-            memory happens
-          </span>
-        </h1>
 
-      </div>
-    </div>
-
-
-
-    </div>
-
-    <!--날짜 넣는 구역까지 slider입니다-->
-
-
-
-
-
+      <!--날짜 넣는 구역까지 slider입니다-->
 
 
 
@@ -180,7 +143,7 @@
 
 
 
-      <div id="wrap_1">
+      <div class="wrap_1">
         <div id="dolphin_tour">
           <div class="container"><img src="img/dolphin.jpg" alt="dolphin"></div>
 
@@ -195,7 +158,7 @@
           </p>
         </div>
       </div>
-      <div id="wrap_1">
+      <div class="wrap_1">
         <div id="penquin_tour">
           <div class="container">
             <img src="img/penguin-island_tour.jpg" alt="penguin-island_tour">
@@ -208,7 +171,7 @@
 
         </div>
       </div>
-      <div id="wrap_1">
+      <div class="wrap_1">
         <div id="relaxing_tour">
           <div class="container">
             <img src="img/hawaii.jpg" alt="relaxing_tour">
@@ -222,7 +185,7 @@
         </div>
       </div>
 
-      <div id="wrap_1">
+      <div class="wrap_1">
         <div id="whalewatching_tour">
           <div class="container">
             <img src="img/maxico_whalewatching.jpg" alt="whalewatching_tour">
@@ -593,7 +556,6 @@
         </div>
       </div>
     </div>
-
     <footer>
 
       <div id="wrapping_footer">
@@ -613,6 +575,7 @@
       </div>
 
     </footer>
+
   </section>
 
 
