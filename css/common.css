@@ -1,12 +1,15 @@
 
 header {
-	width: 23rem;
-	height: 100%;
+	display: block;
+	/* width: 23rem; */
+	/* height: 100%; */
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	
+	background-color: white;
 }
+
+
 
 nav {
 	width: 23rem;
@@ -92,39 +95,3 @@ li a:hover {
 }
    
 
-
-footer {
-	height: 15rem;
-	background-color: black;
-	font-size: 3.5rem;
-}
-
-#wrapping_footer {
-	display: flex;
-	align-content: space-around;
-	justify-content: space-around;
-}
-
-.container_left {
-	color: rgb(233, 232, 232);
-	padding-top: 2rem;
-	padding-left: 2rem;
-	width: 30rem;
-	height: 15rem;
-
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
-}
-
-.container_right {
-	width: 30rem;
-	height: 15rem;
-
-	padding-top: 2rem;
-	padding-left: 1rem;
-}
-
-.container_right img {
-	border-radius: 80%;
-	background-color: #1ecbe2;
-	margin-left: 1rem;
-}
