@@ -1,26 +1,43 @@
-
 header {
 	display: block;
-	/* width: 23rem; */
-	/* height: 100%; */
+	width: 23rem;
+	height: 100%;
 	position: fixed;
 	left: 0px;
 	top: 0px;
 	background-color: white;
 }
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+	header a {
+		padding: 15px;
+		text-decoration: none;
+		display: block;
+	}
+	header a:hover {
+		background-color: #eee;
+		color: #666;
+		text-decoration: none;
+		display: block;
+	}
 
-
-
+	header {
+		width: 100%;
+		height: 20rem;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		background-color: hotpink;
+		z-index: 1;
+	}
+}
 nav {
 	width: 23rem;
 	height: 100%;
-
-	position: fixed;
-
+	position: relative;
+	border: 1px solid #ccc;
 	left: 0px;
 	top: 0px;
 	bottom: 0px;
-	border-right: 1px solid rgb(255, 255, 255);
 }
 
 #logo {
@@ -93,5 +110,3 @@ li a:hover {
 	background-color: #1ecbe2;
 	margin-left: 1rem;
 }
-   
-
