@@ -492,7 +492,10 @@ html {
 	}
 
 	#wrap_3 {
+		background-color: #222;
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: space-around;
 	}
 	.newyork {
@@ -503,7 +506,6 @@ html {
 		height: 250px;
 		background-color: darkgrey;
 		margin-left: 30px;
-		background-color: yellow;
 
 		font-family: "Secular One", sans-serif;
 	}
@@ -518,7 +520,7 @@ html {
 		height: 250px;
 		background-color: aliceblue;
 		position: relative;
-		bottom: 255px;
+		bottom: 257px;
 		left: 150px;
 		padding-left: 1rem;
 
@@ -2388,7 +2390,6 @@ html {
 		height: 250px;
 		background-color: darkgrey;
 		margin-left: 30px;
-		background-color: yellow;
 
 		font-family: "Secular One", sans-serif;
 	}
@@ -2403,7 +2404,7 @@ html {
 		height: 250px;
 		background-color: aliceblue;
 		position: relative;
-		bottom: 255px;
+		bottom: 256px;
 		left: 150px;
 		padding-left: 1rem;
 
