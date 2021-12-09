@@ -6,8 +6,6 @@ html {
 }
 
 @media screen and (max-width: 599px) {
-
-
 	#slider {
 		font-family: "Pacifico", cursive;
 		text-transform: uppercase;
@@ -929,8 +927,6 @@ html {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
-
-	
 	section {
 		position: absolute;
 		top: 0;
@@ -1424,9 +1420,14 @@ html {
 	}
 
 	#wrap_3 {
+		width: 60rem;
+		height: 90rem;
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: space-around;
 	}
+
 	.newyork {
 		font-family: "Bangers", cursive;
 	}
@@ -1588,10 +1589,10 @@ html {
 	}
 
 	#container_1 {
-		width: 350px;
+		width: 80%;
 		height: 250px;
 
-		margin-right: 40px;
+		margin-right: 10px;
 	}
 
 	#container_1 img {
@@ -1880,7 +1881,6 @@ html {
 	.closebtn {
 		display: none;
 	}
-
 
 	section {
 		position: absolute;
@@ -2377,6 +2377,7 @@ html {
 
 	#wrap_3 {
 		display: flex;
+
 		justify-content: space-around;
 	}
 	.newyork {
