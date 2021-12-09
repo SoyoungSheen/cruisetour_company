@@ -466,6 +466,30 @@ footer {
 	.navigation {
 		display: block;
 	}
+
+	#messenger_box {
+		width: 23rem;
+		height: 25rem;
+		background-color: blue;
+		display: flex;
+		justify-content: center;
+	}
+
+	.msg_box {
+		width: 23rem;
+		height: 10rem;
+	}
+	#messenger_box img {
+		width: 5rem;
+		height: 5rem;
+		border-radius: 10rem;
+		background-color: #1ecbe2;
+	}
+
+	#messenger_wrap {
+		width: 5rem;
+		height: 5rem;
+	}
 	#logo-ver2 {
 		display: none;
 	}
