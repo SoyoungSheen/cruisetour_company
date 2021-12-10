@@ -378,11 +378,13 @@ html {
 	#offers {
 		height: 800px;
 
-		border-bottom: 1px solid #bdb0b0;
+	
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: 1px solid #ccc;
+	align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
 	}
 
 	.container {
