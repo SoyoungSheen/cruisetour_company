@@ -148,6 +148,25 @@
 		color: white;
 	}
 
+	.text-header {
+		font-size: 4rem;
+		width: 90%;
+		height: 10rem;
+		letter-spacing: 0.2rem;
+	}
+
+	.text-under {
+		letter-spacing: 0.1rem;
+	}
+
+	.btn-animated {
+		font-size: 2rem;
+	}
+	
+	.blabla {display: none;}
+	.blabla_2 {display: none;}
+
+
 	#under_box {
 		width: 23rem;
 		height: 15rem;
