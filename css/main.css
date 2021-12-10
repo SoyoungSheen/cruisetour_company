@@ -718,7 +718,7 @@ html {
 		cursor: pointer;
 	}
 
- .computer {display:block;}
+ .computer {display:none;}
 
 	
 	#experts {
@@ -736,8 +736,9 @@ html {
 
 		.computer {
 		top: 140px;
-		width: 50rem;
-		height: 50rem;
+		width: 20rem;
+		height: 20rem;
+		
 		border-radius: 1rem;
 		animation-name: moveInRight;
 		animation-timing-function: ease-out;
@@ -946,7 +947,7 @@ html {
 	.containter-heart img {
 		height: 1.5em;
 	}
-}
+
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
 	section {
@@ -1330,7 +1331,8 @@ html {
 		height: 800px;
 
 		border-bottom: 1px solid #bdb0b0;
-		display: flex;
+		display: block;
+		display:flex;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid #ccc;
@@ -2639,6 +2641,7 @@ html {
 	}
 
 	.computer {
+		display: block;
 		top: 140px;
 		width: 50rem;
 		height: 50rem;
@@ -2830,4 +2833,4 @@ html {
 	.containter-heart img {
 		height: 1.5em;
 	}
-}
+
