@@ -216,6 +216,7 @@ html {
 		border: 1px solid #cccccc;
 	}
 
+	
 	#day {
 		width: 20rem;
 		padding: 1rem;
@@ -355,6 +356,7 @@ html {
 		}
 	}
 
+	
 	#img {
 		height: 6rem;
 
@@ -375,15 +377,19 @@ html {
 		justify-content: center;
 	}
 
+	.text h2{
+		text-align: center;
+	}
+
 	#offers {
-		height: 800px;
+		height: 1500px;
 
 	
 		display: flex;
 	align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
+    flex-wrap: nowrap;
+    
     justify-content: space-around;
 	}
 
@@ -419,7 +425,7 @@ html {
 	}
 
 	.wrap_1 {
-		width: 25%;
+		width: 80%;
 		border-bottom: 1px solid #ccc;
 
 		border-right: 1px solid #ccc;
@@ -501,7 +507,7 @@ html {
 	}
 
 	#wrap_3 {
-		background-color: #222;
+		height: 85rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -680,7 +686,8 @@ html {
 		height: 65px;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: center
+		;
 	}
 
 	.title {
@@ -1333,6 +1340,7 @@ html {
 		border-bottom: 1px solid #bdb0b0;
 		display: block;
 		display:flex;
+
 		align-items: center;
 		justify-content: center;
 		border: 1px solid #ccc;
