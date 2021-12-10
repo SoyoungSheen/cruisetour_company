@@ -437,6 +437,13 @@ html {
 		align-content: space-around;
 	}
 
+	.blabla {
+		display: none;
+	}
+
+	.blabla_2{
+		display: none;
+	}
 	.map {
 		width: 30px;
 		display: flex;
@@ -653,10 +660,12 @@ html {
 		width: 100%;
 		padding-top: 10rem;
 		display: flex;
-		align-items: flex-start;
-		justify-content: space-around;
-		align-content: flex-start;
-		flex-wrap: nowrap;
+	align-items: center;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 	}
 
 	#container_1 {
@@ -681,7 +690,7 @@ html {
 
 	.next_to {
 		width: 280px;
-		height: 250px;
+		height: 20px;
 
 		position: relative;
 		left: 70px;
@@ -709,10 +718,9 @@ html {
 		cursor: pointer;
 	}
 
-	.blabla_2 {
-		text-decoration: underline;
-	}
+ .computer {display:block;}
 
+	
 	#experts {
 		height: 600px;
 		width: auto;
@@ -726,6 +734,17 @@ html {
 		height: 600px;
 	}
 
+		.computer {
+		top: 140px;
+		width: 50rem;
+		height: 50rem;
+		border-radius: 1rem;
+		animation-name: moveInRight;
+		animation-timing-function: ease-out;
+		animation-iteration-count: infinite;
+		animation-duration: 3s;
+	}
+
 	#img_devices {
 		position: absolute;
 		left: 10rem;
@@ -736,15 +755,12 @@ html {
 		animation-duration: 3s 2;
 	}
 
-	.computer {
-		top: 140px;
+	.computer {display:none;
+		
 		width: 50rem;
 		height: 50rem;
 		border-radius: 1rem;
-		animation-name: moveInRight;
-		animation-timing-function: ease-out;
-		animation-iteration-count: infinite;
-		animation-duration: 3s;
+		
 	}
 
 	@keyframes iteration-count {
@@ -811,6 +827,8 @@ html {
 		flex-direction: column;
 	}
 
+
+	
 	.popular {
 		font-family: "Alfa Slab One", cursive;
 		font-size: 2.5vh;
@@ -1644,7 +1662,7 @@ html {
 	}
 
 	.blabla_2 {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	#experts {
@@ -1671,6 +1689,7 @@ html {
 	}
 
 	.computer {
+		
 		top: 140px;
 		width: 50rem;
 		height: 50rem;
@@ -2594,10 +2613,8 @@ html {
 		cursor: pointer;
 	}
 
-	.blabla_2 {
-		text-decoration: underline;
-	}
 
+	}
 	#experts {
 		height: 600px;
 		width: auto;
