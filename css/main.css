@@ -1,10 +1,3 @@
-html {
-	/*font-size: 10px; */
-	/*10px / 16px =0.625 = 62.5% */
-	/*percentage of user's browser font-size setting*/
-	font-size: 62.5%;
-}
-
 @media screen and (max-width: 599px) {
 	#slider {
 		font-family: "Pacifico", cursive;
@@ -216,7 +209,6 @@ html {
 		border: 1px solid #cccccc;
 	}
 
-	
 	#day {
 		width: 20rem;
 		padding: 1rem;
@@ -356,7 +348,6 @@ html {
 		}
 	}
 
-	
 	#img {
 		height: 6rem;
 
@@ -377,20 +368,19 @@ html {
 		justify-content: center;
 	}
 
-	.text h2{
+	.text h2 {
 		text-align: center;
 	}
 
 	#offers {
 		height: 1500px;
 
-	
 		display: flex;
-	align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    
-    justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+		justify-content: space-around;
 	}
 
 	.container {
@@ -447,7 +437,7 @@ html {
 		display: none;
 	}
 
-	.blabla_2{
+	.blabla_2 {
 		display: none;
 	}
 	.map {
@@ -585,7 +575,7 @@ html {
 		position: absolute;
 		bottom: 3%;
 		left: 50%;
-		background: #0af;
+		background: #0fe0f5;
 		width: 300px;
 		height: 300px;
 		margin-left: -160px;
@@ -666,295 +656,292 @@ html {
 		width: 100%;
 		padding-top: 10rem;
 		display: flex;
-	align-items: center;
-    justify-content: space-around;
-    align-content: flex-start;
-    flex-wrap: nowrap;
-    flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		align-content: flex-start;
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
 }
+
+#container_1 {
+	width: 80%;
+	height: 250px;
+
+	margin-right: 40px;
+}
+
+#container_1 img {
+	width: 65px;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-family: "Permanent Marker", cursive;
+	font-size: 2.5rem;
+}
+
+.next_to {
+	width: 280px;
+	height: 20px;
+
+	position: relative;
+	left: 70px;
+	bottom: 70px;
+	font-family: "Secular One", sans-serif;
+}
+
+#wrapping {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	height: 900px;
+	margin-right: 20px;
+	animation-name: moveInRight;
+	animation-timing-function: ease-in;
+
+	animation-duration: 3s;
+}
+
+.btn3 {
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.computer {
+	display: none;
+}
+
+#experts {
+	height: 600px;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#devices {
+	width: 400px;
+	height: 600px;
+}
+
+.computer {
+	top: 140px;
+	width: 20rem;
+	height: 20rem;
+
+	border-radius: 1rem;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+
+#img_devices {
+	position: absolute;
+	left: 10rem;
+	width: 10rem;
+	height: 5rem;
+	margin-left: -5rem;
+	animation-timing-function: linear;
+	animation-duration: 3s 2;
+}
+
+.computer {
+	display: none;
+
+	width: 50rem;
+	height: 50rem;
+	border-radius: 1rem;
+}
+
+@keyframes iteration-count {
+	from {
+		left: 100px;
 	}
 
-	#container_1 {
-		width: 80%;
-		height: 250px;
-
-		margin-right: 40px;
+	to {
+		left: 300px;
 	}
+}
 
-	#container_1 img {
-		width: 65px;
-		height: 65px;
-		display: flex;
-		align-items: center;
-		justify-content: center
-		;
-	}
+#list_experts {
+	width: 400px;
+	height: 400px;
+}
 
-	.title {
-		font-family: "Permanent Marker", cursive;
-		font-size: 2.5rem;
-	}
+.discount {
+	font-family: "Secular One", sans-serif;
+	width: 20rem;
+	height: fit-content;
+}
 
-	.next_to {
-		width: 280px;
-		height: 20px;
+.discount li {
+	width: 40rem;
+	padding: 1rem;
+}
 
-		position: relative;
-		left: 70px;
-		bottom: 70px;
-		font-family: "Secular One", sans-serif;
-	}
+.we {
+	font-size: 2.5rem;
+	font-family: "Permanent Marker", cursive;
+}
 
-	#wrapping {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		width: 350px;
-		height: 900px;
-		margin-right: 20px;
-		animation-name: moveInRight;
-		animation-timing-function: ease-in;
+.we_explain {
+	font-family: "Permanent Marker", cursive;
+}
+.boat {
+	width: 1rem;
+	height: 1rem;
+}
 
-		animation-duration: 3s;
-	}
+.btn4 {
+	width: 15rem;
+	height: 3rem;
+	border-radius: 5px;
+	color: deepskyblue;
+}
 
-	.btn3 {
-		width: 100px;
-		height: 30px;
-		cursor: pointer;
-	}
+#destinations {
+	height: 40rem;
+	width: auto;
 
- .computer {display:none;}
+	padding-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+}
 
-	
-	#experts {
-		height: 600px;
-		width: auto;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-	}
+#destiny {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
 
-	#devices {
-		width: 400px;
-		height: 600px;
-	}
+.popular {
+	font-family: "Alfa Slab One", cursive;
+	font-size: 2.5vh;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 
-		.computer {
-		top: 140px;
-		width: 20rem;
-		height: 20rem;
-		
-		border-radius: 1rem;
-		animation-name: moveInRight;
-		animation-timing-function: ease-out;
-		animation-iteration-count: infinite;
-		animation-duration: 3s;
-	}
+.tourbox_container {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-	#img_devices {
-		position: absolute;
-		left: 10rem;
-		width: 10rem;
-		height: 5rem;
-		margin-left: -5rem;
-		animation-timing-function: linear;
-		animation-duration: 3s 2;
-	}
+#ad img {
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px #ccc solid;
 
-	.computer {display:none;
-		
-		width: 50rem;
-		height: 50rem;
-		border-radius: 1rem;
-		
-	}
+	transform: scale(1);
+	transition: 0.2s 0.1s;
+}
 
-	@keyframes iteration-count {
-		from {
-			left: 100px;
-		}
+.inside_container {
+	display: flex;
+	justify-content: space-around;
+	font-family: "Bangers", cursive;
+	border: 2px sollid #ccc;
+	height: 8rem;
+	width: 100%;
 
-		to {
-			left: 300px;
-		}
-	}
+	padding-top: 2rem;
+}
 
-	#list_experts {
-		width: 400px;
-		height: 400px;
-	}
+.btn5 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
 
-	.discount {
-		font-family: "Secular One", sans-serif;
-		width: 20rem;
-		height: fit-content;
-	}
+.in_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.price {
+	font-size: 2rem;
+}
 
-	.discount li {
-		width: 40rem;
-		padding: 1rem;
-	}
+#newsletter {
+	height: 20rem;
+	background-color: darkseagreen;
+	display: flex;
+	align-content: space-around;
+}
 
-	.we {
-		font-size: 2.5rem;
-		font-family: "Permanent Marker", cursive;
-	}
+.btn6 {
+	width: 26.5rem;
+	height: 4.5rem;
+	margin-top: 2rem;
+	border-radius: 0.5rem;
+	font-size: 2rem;
+	cursor: pointer;
+	background-color: #1ecbe2;
+}
 
-	.we_explain {
-		font-family: "Permanent Marker", cursive;
-	}
-	.boat {
-		width: 1rem;
-		height: 1rem;
-	}
+.follow {
+	font-family: "Permanent Marker", cursive;
+}
 
-	.btn4 {
-		width: 15rem;
-		height: 3rem;
-		border-radius: 5px;
-		color: deepskyblue;
-	}
+#prepare {
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
-	#destinations {
-		height: 40rem;
-		width: auto;
+.text_prepare {
+	padding-top: 2rem;
+	font-family: "Alfa Slab One", cursive;
+	letter-spacing: 3px;
+	font-size: 2rem;
+}
+.text_explaining {
+	padding-top: 2rem;
+	letter-spacing: 1px;
+	font-family: "Bangers", cursive;
+	color: #ccc;
+}
 
-		padding-top: 10rem;
-		display: flex;
-		flex-direction: column;
-		align-items: space-between;
-	}
+#center_logo {
+	height: 30rem;
 
-	#destiny {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-start;
-		flex-direction: column;
-	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
+.cruise {
+	padding-top: 10rem;
+	padding-bottom: 2rem;
+}
 
-	
-	.popular {
-		font-family: "Alfa Slab One", cursive;
-		font-size: 2.5vh;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-	}
+.containter-heart {
+	display: flex;
+	font-family: "Alfa Slab One", cursive;
+	font-size: 1.5rem;
+}
 
-	.tourbox_container {
-		overflow: hidden;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	#ad img {
-		max-width: 100%;
-		vertical-align: middle;
-		display: inline-block;
-		border: 1px #ccc solid;
-
-		transform: scale(1);
-		transition: 0.2s 0.1s;
-	}
-
-	.inside_container {
-		display: flex;
-		justify-content: space-around;
-		font-family: "Bangers", cursive;
-		border: 2px sollid #ccc;
-		height: 8rem;
-		width: 100%;
-
-		padding-top: 2rem;
-	}
-
-	.btn5 {
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		padding-top: 1rem;
-		padding-left: 1rem;
-	}
-
-	.in_text {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.price {
-		font-size: 2rem;
-	}
-
-	#newsletter {
-		height: 20rem;
-		background-color: darkseagreen;
-		display: flex;
-		align-content: space-around;
-	}
-
-	.btn6 {
-		width: 26.5rem;
-		height: 4.5rem;
-		margin-top: 2rem;
-		border-radius: 0.5rem;
-		font-size: 2rem;
-		cursor: pointer;
-		background-color: #1ecbe2;
-	}
-
-	.follow {
-		font-family: "Permanent Marker", cursive;
-	}
-
-	#prepare {
-		height: 30rem;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.text_prepare {
-		padding-top: 2rem;
-		font-family: "Alfa Slab One", cursive;
-		letter-spacing: 3px;
-		font-size: 2rem;
-	}
-	.text_explaining {
-		padding-top: 2rem;
-		letter-spacing: 1px;
-		font-family: "Bangers", cursive;
-		color: #ccc;
-	}
-
-	#center_logo {
-		height: 30rem;
-
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.cruise {
-		padding-top: 10rem;
-		padding-bottom: 2rem;
-	}
-
-	.containter-heart {
-		display: flex;
-		font-family: "Alfa Slab One", cursive;
-		font-size: 1.5rem;
-	}
-
-	.containter-heart img {
-		height: 1.5em;
-	}
-
+.containter-heart img {
+	height: 1.5em;
+}
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
 	section {
@@ -1331,7 +1318,6 @@ html {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	
 	}
 
 	#offers {
@@ -1339,7 +1325,7 @@ html {
 
 		border-bottom: 1px solid #bdb0b0;
 		display: block;
-		display:flex;
+		display: flex;
 
 		align-items: center;
 		justify-content: center;
@@ -1699,7 +1685,6 @@ html {
 	}
 
 	.computer {
-		
 		top: 140px;
 		width: 50rem;
 		height: 50rem;
@@ -2622,223 +2607,220 @@ html {
 		height: 30px;
 		cursor: pointer;
 	}
+}
+#experts {
+	height: 600px;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
 
+#devices {
+	width: 400px;
+	height: 600px;
+}
 
-	}
-	#experts {
-		height: 600px;
-		width: auto;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-	}
+#img_devices {
+	position: absolute;
+	left: 10rem;
+	width: 10rem;
+	height: 5rem;
+	margin-left: -5rem;
+	animation-timing-function: linear;
+	animation-duration: 3s 2;
+}
 
-	#devices {
-		width: 400px;
-		height: 600px;
-	}
+.computer {
+	display: block;
+	top: 140px;
+	width: 50rem;
+	height: 50rem;
+	border-radius: 1rem;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
 
-	#img_devices {
-		position: absolute;
-		left: 10rem;
-		width: 10rem;
-		height: 5rem;
-		margin-left: -5rem;
-		animation-timing-function: linear;
-		animation-duration: 3s 2;
-	}
-
-	.computer {
-		display: block;
-		top: 140px;
-		width: 50rem;
-		height: 50rem;
-		border-radius: 1rem;
-		animation-name: moveInRight;
-		animation-timing-function: ease-out;
-		animation-iteration-count: infinite;
-		animation-duration: 3s;
-	}
-
-	@keyframes iteration-count {
-		from {
-			left: 100px;
-		}
-
-		to {
-			left: 300px;
-		}
+@keyframes iteration-count {
+	from {
+		left: 100px;
 	}
 
-	#list_experts {
-		width: 400px;
-		height: 400px;
+	to {
+		left: 300px;
 	}
+}
 
-	.discount {
-		font-family: "Secular One", sans-serif;
-		width: 20rem;
-		height: fit-content;
-	}
+#list_experts {
+	width: 400px;
+	height: 400px;
+}
 
-	.discount li {
-		width: 40rem;
-		padding: 1rem;
-	}
+.discount {
+	font-family: "Secular One", sans-serif;
+	width: 20rem;
+	height: fit-content;
+}
 
-	.we {
-		font-size: 2.5rem;
-		font-family: "Permanent Marker", cursive;
-	}
+.discount li {
+	width: 40rem;
+	padding: 1rem;
+}
 
-	.we_explain {
-		font-family: "Permanent Marker", cursive;
-	}
-	.boat {
-		width: 1rem;
-		height: 1rem;
-	}
+.we {
+	font-size: 2.5rem;
+	font-family: "Permanent Marker", cursive;
+}
 
-	.btn4 {
-		width: 15rem;
-		height: 3rem;
-		border-radius: 5px;
-		color: deepskyblue;
-	}
+.we_explain {
+	font-family: "Permanent Marker", cursive;
+}
+.boat {
+	width: 1rem;
+	height: 1rem;
+}
 
-	#destinations {
-		height: 40rem;
-		width: auto;
+.btn4 {
+	width: 15rem;
+	height: 3rem;
+	border-radius: 5px;
+	color: deepskyblue;
+}
 
-		padding-top: 10rem;
-		display: flex;
-		flex-direction: column;
-		align-items: space-between;
-	}
+#destinations {
+	height: 40rem;
+	width: auto;
 
-	#destiny {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-start;
-		flex-direction: column;
-	}
+	padding-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+}
 
-	.popular {
-		font-family: "Alfa Slab One", cursive;
-		font-size: 2.5vh;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-	}
+#destiny {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
 
-	.tourbox_container {
-		overflow: hidden;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+.popular {
+	font-family: "Alfa Slab One", cursive;
+	font-size: 2.5vh;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 
-	#ad img {
-		max-width: 100%;
-		vertical-align: middle;
-		display: inline-block;
-		border: 1px #ccc solid;
+.tourbox_container {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-		transform: scale(1);
-		transition: 0.2s 0.1s;
-	}
+#ad img {
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px #ccc solid;
 
-	.inside_container {
-		display: flex;
-		justify-content: space-around;
-		font-family: "Bangers", cursive;
-		border: 2px sollid #ccc;
-		height: 8rem;
-		width: 100%;
+	transform: scale(1);
+	transition: 0.2s 0.1s;
+}
 
-		padding-top: 2rem;
-	}
+.inside_container {
+	display: flex;
+	justify-content: space-around;
+	font-family: "Bangers", cursive;
+	border: 2px sollid #ccc;
+	height: 8rem;
+	width: 100%;
 
-	.btn5 {
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		padding-top: 1rem;
-		padding-left: 1rem;
-	}
+	padding-top: 2rem;
+}
 
-	.in_text {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.price {
-		font-size: 2rem;
-	}
+.btn5 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
 
-	#newsletter {
-		height: 20rem;
-		background-color: darkseagreen;
-		display: flex;
-		align-content: space-around;
-	}
+.in_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.price {
+	font-size: 2rem;
+}
 
-	.btn6 {
-		width: 26.5rem;
-		height: 4.5rem;
-		margin-top: 2rem;
-		border-radius: 0.5rem;
-		font-size: 2rem;
-		cursor: pointer;
-		background-color: #1ecbe2;
-	}
+#newsletter {
+	height: 20rem;
+	background-color: darkseagreen;
+	display: flex;
+	align-content: space-around;
+}
 
-	.follow {
-		font-family: "Permanent Marker", cursive;
-	}
+.btn6 {
+	width: 26.5rem;
+	height: 4.5rem;
+	margin-top: 2rem;
+	border-radius: 0.5rem;
+	font-size: 2rem;
+	cursor: pointer;
+	background-color: #1ecbe2;
+}
 
-	#prepare {
-		height: 30rem;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+.follow {
+	font-family: "Permanent Marker", cursive;
+}
 
-	.text_prepare {
-		padding-top: 2rem;
-		font-family: "Alfa Slab One", cursive;
-		letter-spacing: 3px;
-		font-size: 2rem;
-	}
-	.text_explaining {
-		padding-top: 2rem;
-		letter-spacing: 1px;
-		font-family: "Bangers", cursive;
-		color: #ccc;
-	}
+#prepare {
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
-	#center_logo {
-		height: 30rem;
+.text_prepare {
+	padding-top: 2rem;
+	font-family: "Alfa Slab One", cursive;
+	letter-spacing: 3px;
+	font-size: 2rem;
+}
+.text_explaining {
+	padding-top: 2rem;
+	letter-spacing: 1px;
+	font-family: "Bangers", cursive;
+	color: #ccc;
+}
 
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+#center_logo {
+	height: 30rem;
 
-	.cruise {
-		padding-top: 10rem;
-		padding-bottom: 2rem;
-	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
-	.containter-heart {
-		display: flex;
-		font-family: "Alfa Slab One", cursive;
-		font-size: 1.5rem;
-	}
+.cruise {
+	padding-top: 10rem;
+	padding-bottom: 2rem;
+}
 
-	.containter-heart img {
-		height: 1.5em;
-	}
+.containter-heart {
+	display: flex;
+	font-family: "Alfa Slab One", cursive;
+	font-size: 1.5rem;
+}
 
+.containter-heart img {
+	height: 1.5em;
+}
