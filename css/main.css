@@ -30,18 +30,29 @@
 	}
 
 	.text-header {
-		font-size: 6rem;
+		display:none;
+	}
+
+		.text-header-ver2 {
+		margin-bottom: 5rem;
+		font-size: 4rem;
 		font-weight: 600;
-		letter-spacing: 2rem;
+		letter-spacing: 0.5rem;
 		animation-name: moveInLeft;
 		animation-duration: 1s;
 		display: block;
 		animation-timing-function: ease-out;
-		height: 6rem;
+		height:12rem;
 		margin-bottom: 2rem;
-	}
+			}
+
 
 	.text-under {
+		display: none;
+	}
+
+	
+	.text-under-ver2 {
 		display: block;
 		font-size: 2rem;
 		font-weight: 700;
@@ -51,6 +62,7 @@
 		animation-duration: 2s;
 		animation-delay: 1s;
 	}
+
 
 	h1 {
 		display: block;
@@ -521,11 +533,11 @@
 	}
 
 	.text_3 {
-		width: 200px;
+		width: 60%;
 		height: 250px;
 		background-color: aliceblue;
 		position: relative;
-		bottom: 257px;
+		bottom: 255px;
 		left: 150px;
 		padding-left: 1rem;
 
@@ -534,13 +546,14 @@
 
 	.extended {
 		width: 100%;
-		height: 150px;
-
+		height: 15rem;
+		display: grid; flex-direction: column;
 		border: 1px solid #ccc;
 	}
 
 	.web {
-		color: #1ecbe2;
+		color: #1ecbe2; margin-left: 5rem;
+		margin-top: 2rem;
 	}
 	.container_2 {
 		width: 100%;
@@ -554,14 +567,20 @@
 	}
 
 	.btn2 {
+	display: none;}
+
+
+		.btn2-ver2 {
+			display:flex;
+			
 		display: inline-block;
-		width: 300px;
-		height: 80px;
+		width: 15rem;
+		height: 5rem;
 		position: relative;
 		font-size: 20px;
 		font-family: "Road Rage", cursive;
 		cursor: pointer;
-		padding: 0.8em 1em;
+		padding: 0.2em 1em;
 		border: 1px solid #333;
 		border-radius: 10px;
 		overflow: hidden;
@@ -639,7 +658,7 @@
 	.core_explain {
 		font-size: 2rem;
 		padding-bottom: 2rem;
-
+		margin-left:5rem;
 		font-family: "Bangers", cursive;
 
 		padding-top: 2rem;
@@ -652,7 +671,7 @@
 		height: 1200px;
 		width: 100%;
 
-		height: 1200px;
+		height: 1500px;
 		width: 100%;
 		padding-top: 10rem;
 		display: flex;
@@ -685,12 +704,13 @@
 }
 
 .next_to {
-	width: 280px;
+	width: 29%;
 	height: 20px;
-
+margin-right: 10rem;
 	position: relative;
 	left: 70px;
 	bottom: 70px;
+	margin: 3rem;
 	font-family: "Secular One", sans-serif;
 }
 
@@ -731,8 +751,8 @@
 	height: 600px;
 }
 
-.computer {
-	top: 140px;
+.computer {display: none;
+	/*top: 140px;
 	width: 20rem;
 	height: 20rem;
 
@@ -740,7 +760,7 @@
 	animation-name: moveInRight;
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
-	animation-duration: 3s;
+	animation-duration: 3s;*/
 }
 
 #img_devices {
@@ -904,6 +924,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin:5rem;
 }
 
 .text_prepare {
@@ -915,6 +936,7 @@
 .text_explaining {
 	padding-top: 2rem;
 	letter-spacing: 1px;
+	font-size:2rem;
 	font-family: "Bangers", cursive;
 	color: #ccc;
 }
@@ -993,6 +1015,9 @@
 		margin-bottom: 2rem;
 	}
 
+	.text-header-ver2 {
+		display: none;
+	}
 	.text-under {
 		display: block;
 		font-size: 2rem;
@@ -1004,6 +1029,9 @@
 		animation-delay: 1s;
 	}
 
+		.text-under-ver2 {
+			display: none;
+		}
 	h1 {
 		display: block;
 		font-size: 3em;
@@ -1455,18 +1483,17 @@
 		height: 250px;
 		background-color: darkgrey;
 		margin-left: 30px;
-		background-color: yellow;
-
+		
 		font-family: "Secular One", sans-serif;
 	}
 
 	.box_3 img {
-		width: 150px;
+		width: 50%;
 		height: 250px;
 	}
 
 	.text_3 {
-		width: 200px;
+		width: 60%;
 		height: 250px;
 		background-color: aliceblue;
 		position: relative;
@@ -1498,6 +1525,8 @@
 		font-family: "Road Rage", cursive;
 	}
 
+		.btn2-ver2 {
+	display: none;}
 	.btn2 {
 		display: inline-block;
 		width: 300px;
@@ -1558,6 +1587,7 @@
 		height: 900px;
 		background-color: dodgerblue;
 		font-family: "Pacifico", cursive;
+		
 	}
 
 	#core_sv {
@@ -1573,7 +1603,7 @@
 	}
 
 	.core_svs {
-		font-size: 2rem;
+		font-size: 4rem;
 		padding-top: 30px;
 		padding-bottom: 2.5vh;
 		font-family: "Alfa Slab One", cursive;
@@ -1584,7 +1614,7 @@
 	.core_explain {
 		font-size: 2rem;
 		padding-bottom: 2rem;
-
+		margin-left: 2rem;
 		font-family: "Bangers", cursive;
 
 		padding-top: 2rem;
@@ -1592,6 +1622,25 @@
 
 		color: #ccc;
 	}
+
+	
+	#logo-ver2 {
+		position: relative;
+		bottom:2rem;
+		z-index: 600;
+		margin: 0;
+		float: none;
+		width: 23rem;
+		height: 20rem;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		animation-name: moveInRight;
+		animation-timing-function: ease-out;
+		animation-duration: 3s;
+	}
+
 
 	#explain {
 		height: 1200px;
@@ -1657,8 +1706,13 @@
 		cursor: pointer;
 	}
 
+	.blabla {
+		text-decoration: none;
+		font-size: 1.5rem;
+	}
 	.blabla_2 {
 		text-decoration: none;
+		font-size: 1.5rem;
 	}
 
 	#experts {
@@ -1685,15 +1739,17 @@
 	}
 
 	.computer {
+		
 		top: 140px;
 		width: 50rem;
 		height: 50rem;
 		border-radius: 1rem;
 		animation-name: moveInRight;
 		animation-timing-function: ease-out;
-		animation-iteration-count: infinite;
+		animation-iteration-count:infinite;
 		animation-duration: 3s;
 	}
+
 
 	@keyframes iteration-count {
 		from {
@@ -1719,6 +1775,7 @@
 	.discount li {
 		width: 40rem;
 		padding: 1rem;
+		font-size: 2rem;
 	}
 
 	.we {
@@ -1727,7 +1784,8 @@
 	}
 
 	.we_explain {
-		font-family: "Permanent Marker", cursive;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 2rem;
 	}
 	.boat {
 		width: 1rem;
@@ -1894,6 +1952,8 @@
 		line-height: 2rem;
 	}
 
+
+
 	#b {
 		display: none;
 	}
@@ -1953,6 +2013,9 @@
 		margin-bottom: 2rem;
 	}
 
+	.text-header-ver2 {
+		display: none;
+	}
 	.text-under {
 		display: block;
 		font-size: 2rem;
@@ -1963,6 +2026,10 @@
 		animation-duration: 2s;
 		animation-delay: 1s;
 	}
+
+			.text-under-ver2 {
+			display: none;
+		}
 
 	h1 {
 		display: block;
@@ -2412,12 +2479,12 @@
 	}
 
 	.box_3 img {
-		width: 150px;
+		width: 50%;
 		height: 250px;
 	}
 
 	.text_3 {
-		width: 200px;
+		width: 60%;
 		height: 250px;
 		background-color: aliceblue;
 		position: relative;
@@ -2449,6 +2516,8 @@
 		font-family: "Road Rage", cursive;
 	}
 
+		.btn2-ver2 {
+	display: none;}
 	.btn2 {
 		display: inline-block;
 		width: 300px;

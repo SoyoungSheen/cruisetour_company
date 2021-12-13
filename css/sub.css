@@ -109,13 +109,19 @@ section {
 }
 
 .svg-stamp {
-	position: relative;
+/*position: relative;
 	right: 6rem;
-	bottom: 3rem;
+	bottom: 3rem;*/
 	transform: rotate(25deg);
 	width: 15rem;
 	height: 12rem;
 	animation: stamp 2s ease-in-out infinite alternate;
+}
+
+.wrap-for-svg {
+	width:20rem;
+	height:20rem;
+	background-color: blueviolet;
 }
 #container_svg {
 	width: 100%;
@@ -165,7 +171,7 @@ section {
 	}
 
 	to {
-		transform: rotate(45deg);
+		transform: rotate(25deg);
 	}
 }
 
