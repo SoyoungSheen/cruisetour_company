@@ -108,13 +108,21 @@ section {
 	background-size: cover;
 }
 
+.wrap-for-svg {
+	 display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
 .svg-stamp {
-/*position: relative;
-	right: 6rem;
-	bottom: 3rem;*/
+	
+
 	transform: rotate(25deg);
-	width: 15rem;
-	height: 12rem;
+	width: 20rem;
+	height:20rem;
 	animation: stamp 2s ease-in-out infinite alternate;
 }
 
@@ -235,15 +243,88 @@ section {
 	margin-right: 10rem;
 	text-align: center;
 	padding: 1rem;
-	background-color: #1ecbe2;
+	
 	border-radius: 5rem;
 }
 
 #boxes-posts {
 	width: 100%;
-	height: 140rem;
-	background-color: lavender;
+	height: 50rem;
+	background-color: none;
+	
+	display: flex;
+	align-content: flex-end;
+	 justify-content: space-around;
 }
+
+
+
+
+.around-downtown {
+	width:45%;
+	height:35rem;
+	
+	border-radius: 3rem;
+}
+
+.around-downtown img {
+ width: 75rem; height: 35rem; border-radius: 2rem;
+}
+
+.wrap-around-downtown {
+	width:50%; height:50rem;
+	
+}
+.point {
+	margin-top: 2rem;
+	width:fit-content;
+	border: 2px solid #ccc;
+	border-radius: 2rem;
+	font-size: 2rem;
+	display: block;
+	padding: 5px;
+}
+.garden-tour {
+	width:45%;
+	height:35rem;
+
+	border-radius: 3rem;
+}
+
+.the-place {
+	margin-top: 3rem;
+	width:75rem;
+	height:5rem;
+	font-size: 3rem;
+	font-family: Georgia, "Times New Roman", Times, serif;;
+}
+
+.the-date {
+	color:rgb(104, 102, 102);
+	letter-spacing: 1rem;
+}
+
+#boxes-posts-second {
+	width: 100%;
+	height: 50rem;
+	background-color: none;
+	display: flex;
+	align-content: flex-end;
+	justify-content: space-around;
+	margin-top: 5rem;
+}
+
+
+#boxes-posts-third {
+	width: 100%;
+	height: 50rem;
+	background-color: none;
+	display: flex;
+	align-content: flex-end;
+	justify-content: space-around;
+	margin-top: 5rem;
+}
+
 
 #words-me {
 	width: 100%;
@@ -254,7 +335,7 @@ section {
 #places {
 	width: 100%;
 	height: 80rem;
-	background-color: limegreen;
+	background-color: lightsalmon;
 }
 
 #recent-posts {
@@ -274,3 +355,5 @@ section {
 	height: 20rem;
 	background-color: tomato;
 }
+
+
