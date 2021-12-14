@@ -452,6 +452,14 @@
 	.blabla_2 {
 		display: none;
 	}
+
+	.title {
+		width: 40rem;
+	}
+
+	.we {
+		width:60rem;
+	}
 	.map {
 		width: 30px;
 		display: flex;
@@ -813,6 +821,7 @@
 	
 	.we_explain {
 		font-family: "Permanent Marker", cursive;
+		font-size: 1.5rem;
 	}
 	.boat {
 		width: 1rem;
@@ -1770,8 +1779,9 @@
 
 	.discount {
 		font-family: "Secular One", sans-serif;
-		width: 20rem;
+		width: 25rem;
 		height: fit-content;
+		font-size: 2rem;
 	}
 
 	.discount li {
@@ -2641,7 +2651,7 @@
 			}
 		
 			.next_to {
-				width: 280px;
+				width: 60%;
 				height: 250px;
 		
 				position: relative;
@@ -2675,6 +2685,14 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
+		}
+
+
+		.blabla {
+			font-size: 1.5rem;
+		}
+		.blabla_2 {
+			font-size: 1rem;
 		}
 		
 		#devices {
@@ -2728,7 +2746,9 @@
 		.discount li {
 			width: 40rem;
 			padding: 1rem;
+			font-size: 2rem;
 		}
+		
 		
 		.we {
 			font-size: 2.5rem;
@@ -2737,6 +2757,7 @@
 		
 		.we_explain {
 			font-family: "Permanent Marker", cursive;
+			font-size: 2rem;
 		}
 		.boat {
 			width: 1rem;
