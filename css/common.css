@@ -1,45 +1,80 @@
 @media screen and (max-width: 599px) {
 	header {
 		width: 100%;
-		height: 10rem;
-
+		height: 23rem;
+		background-color: #fff;
 		display: flex;
 		align-content: flex-start;
 		justify-content: flex-end;
 		margin-bottom: 3rem;
+		
 	}
 
-	.box {
-		display: none;
-	}
-
-	header a:hover {
+		header a:hover {
 		background-color: #eee;
 		color: #666;
 		text-decoration: none;
 		display: block;
 	}
 
+
+	
+
+	.box {
+		display: none;
+	}
+
+	
 	#logo {
 		display: none;
 	}
 
-	#logo-ver2 {
-		position: relative;
-		bottom: 2rem;
-		z-index: 600;
-		margin: 0;
-		float: none;
-		width: 23rem;
-		height: 20rem;
 
+
+		#b_box {
+		width: 20rem;
+		height: 20rem;
+		;
+		z-index: 777;
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		animation-name: moveInRight;
-		animation-timing-function: ease-out;
-		animation-duration: 3s;
+	flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+		}
+	
+
+		#b_box img {
+		width: 8rem;
+		height: 8rem;
+		}
+
+		.menu {
+			display: flex;
+		}
+
+	.wrap-logo{
+		flex-wrap: wrap;
+    justify-content: space-around;
 	}
+.logo-ver2 {
+	width:20rem;
+	height:20rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation-name: moveInRight;
+	animation-timing-function: ease-out;
+	animation-duration: 3s;}
+
+	.wrap-logo {
+		display: flex;
+		width: 20rem;
+		height: 29rem;
+		
+	}
+
+
 
 	.overlay {
 		height: 100%;
@@ -86,50 +121,7 @@
 		right: 4;
 	}
 
-	nav {
-		width: 23rem;
-		height: 100%;
-
-		position: fixed;
-
-		left: 0px;
-		top: 0px;
-		bottom: 0px;
-	}
-
-	ul {
-		width: 23rem;
-		height: auto;
-		padding-right: 5rem;
-	}
-
-	li a {
-		display: none;
-		padding-right: 5rem;
-		padding-left: 0px;
-		color: #0fe0f5;
-		font-size: 1.5rem;
-		font-weight: 70rem;
-		text-align: right;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		display: block;
-		color: black;
-		padding: 1rem;
-		text-decoration: none;
-		font-weight: bolder;
-		list-style: none;
-	}
-
-	li a.current {
-		background-color: orangered;
-		color: white;
-	}
-
-	li a:hover {
-		background-color: #0fe0f5;
-		color: white;
-	}
+	
 
 	#under_box {
 		width: 23rem;
@@ -138,6 +130,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		display: block;
 	}
 
 	.box img {
@@ -151,7 +144,7 @@
 	}
 
 	#messenger_box {
-		display: none;
+		display: block;
 	}
 
 	footer {
@@ -240,33 +233,36 @@
 		display: block;
 	}
 
-	#header {
+		header {
 		width: 100%;
-		height: 20rem;
+		height: 30rem;
 		position: fixed;
 		left: 0px;
 		top: 0px;
-		background-color: white;
+		background-color: none;
 		z-index: 1;
 		display: flex;
 		justify-content: space-between;
 	}
 
+
+
 	#b_box {
-		width: 500rem;
+		width: 30rem;
 		height: 20rem;
-		/*background-color: darkmagenta;*/
+		
 
 		display: flex;
-		align-items: stretch;
-		align-content: center;
-		justify-content: flex-end;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+		
 	}
 
 	header {
 		width: 100%;
-		height: 10rem;
-
+		height: 20rem;
+		background-color: rgb(255, 255, 255);
 		display: flex;
 		align-content: flex-start;
 		justify-content: flex-end;
@@ -288,6 +284,9 @@
 		display: none;
 	}
 
+	.wrap-logo {
+		display: flex;
+	}
 	.logo {
 		width: 8rem;
 		line-height: 5rem;
@@ -312,7 +311,11 @@
 		background-color: rgb(0, 0, 0);
 		overflow-x: hidden;
 		transition: 0.5s;
-	}
+		display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 	.overlay-content {
 		position: relative;
 		top: 25%;
@@ -331,6 +334,7 @@
 		transition: 0.3s;
 		font-weight: bold;
 		display: block;
+		
 	}
 
 	.overlay a:hover,
@@ -342,6 +346,8 @@
 		top: 2rem;
 		right: 4;
 	}
+
+
 
 	#logo-container {
 		width: 100%;
@@ -383,7 +389,7 @@
 		margin-left: 3rem;
 	}
 
-	.navigation {
+	nav {
 		display: none;
 	}
 
@@ -507,11 +513,14 @@
 		opacity: 0.5;
 	}
 }
+	
+
 
 /*가장 큰사이즈입니다 */
 
 @media screen and (min-width: 1200px) {
-	header {
+
+		#header {
 		display: block;
 		width: 23rem;
 		height: 100%;
@@ -536,6 +545,7 @@
 	}
 
 	nav {
+		display: block;
 		display: fixed;
 		width: 23rem;
 		height: 50rem;
