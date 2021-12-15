@@ -6,18 +6,99 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="loading-page.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+  <meta http-equiv="refresh" content="5 ; url=sub.html">
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .loading-wrap {
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      position: fixed;
+      opacity: 1;
+      background-color: #fff;
+      z-index: 99;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #loading-image1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 100;
+    }
+
+    #train {
+      animation: loading 1s linear infinite;
+    }
+
+    #cruise {
+      animation: loading 1s 0.5s linear infinite;
+    }
+
+    #airplane {
+      animation: loading 1s 0.8s linear infinite;
+    }
+
+    #bike {
+      animation: loading 1s 1s linear infinite;
+    }
+
+    #bed {
+      animation: loading 1s 1.5s linear infinite;
+    }
+
+    #left-arm {
+      animation: hi 3s infinite;
+      transform-origin: center;
+    }
+
+    @keyframes loading {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-3%);
+      }
+    }
+
+    @keyframes hi {
+
+      0%,
+      90%,
+      100% {
+        transform: translateY(0px);
+      }
+
+      98% {
+        transform: translateZ(-3px);
+      }
+
+      65% {
+        transform: translateY(15px);
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-
-
   <div class="loading-wrap">
     <svg width="1022" height="783" viewBox="0 0 1022 783" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g id="loading-image 1" clip-path="url(#clip0_0_3)">
+      <g id="loading-image1" clip-path="url(#clip0_0_3)">
         <path id="Vector"
           d="M844.5 682.76C929.828 682.76 999 671.343 999 657.26C999 643.177 929.828 631.76 844.5 631.76C759.172 631.76 690 643.177 690 657.26C690 671.343 759.172 682.76 844.5 682.76Z"
           fill="#3F3D56" />
@@ -194,8 +275,11 @@
           <rect width="1021.5" height="782.954" fill="white" />
         </clipPath>
       </defs>
-    </svg>
+    </svg>-->
   </div>
+
+
+
 
 </body>
 
