@@ -202,7 +202,7 @@ section {
 .featured-explain {
 	width: 50rem;
 	height: 11rem;
-	font-size: 2em;
+	font-size: 3em;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -227,7 +227,12 @@ section {
 	display: flex;
 	align-content: space-between;
 	justify-content: space-between;
+
 }
+
+
+
+
 
 .trending-posts-left {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -250,7 +255,7 @@ section {
 #boxes-posts {
 	width: 100%;
 	height: 50rem;
-	background-color: none;
+
 
 	display: flex;
 	align-content: flex-end;
@@ -258,21 +263,38 @@ section {
 }
 
 .around-downtown {
-	width: 45%;
+	width: 72rem;
 	height: 35rem;
-
-	border-radius: 3rem;
+	border-radius: 2rem; 
+		
 }
 
 .around-downtown img {
-	width: 75rem;
+	width: 100%;
 	height: 35rem;
 	border-radius: 2rem;
+	transform: scale(1);
+	transition: all 0.3s ease-in-out; object-fit: cover;
+
+
 }
 
+.around-downtown :hover img {
+transform: scale(1.1);
+	cursor: pointer;
+	overflow: hidden;
+;
+
+}
+
+
+
 .wrap-around-downtown {
-	width: 50%;
-	height: 50rem;
+	overflow: hidden;
+	width:70rem;
+	height: 35rem;
+	border-radius: 2rem;
+	background-color: purple;
 }
 .point {
 	margin-top: 2rem;
@@ -296,6 +318,7 @@ section {
 	height: 5rem;
 	font-size: 3rem;
 	font-family: Georgia, "Times New Roman", Times, serif;
+
 }
 
 .the-date {
@@ -328,24 +351,99 @@ section {
 	height: 50rem;
 	margin-top: 10rem;
 	background-color: lightskyblue;
+	display: flex;align-items: center; justify-content: center;
 }
+
+.box-left {
+	width:70rem;
+	height:50rem;
+	background-color: cornflowerblue;
+	border-top-left-radius:4rem;
+	border-bottom-left-radius: 4rem;display: flex;flex-direction: column; flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+	
+}
+
+.box-right { width:70rem;
+	height:50rem; background-color: darkgoldenrod;
+	border-top-right-radius:4rem;
+	border-bottom-right-radius: 4rem; overflow: hidden;
+}
+
+.box-right img { width:70rem; height:50rem;border-top-right-radius:4rem;
+	border-bottom-right-radius: 4rem;transform: scale(1); transition: all 0.3s ease-in-out;}
+
+.box-right :hover img{
+	transform: scale(1.1);	transition: all 0.3s ease-in-out;
+}
+
+.cbox-text{
+	width:50rem; height: 10rem;background-color: darkorange; font-size: 4rem;font-family: "Times New Roman", Times, serif; font-weight: 600;
+	margin-top: 3rem;
+}
+
+.cbox-text-under{
+ width: 50rem; height: 35rem; background-color: darkturquoise; font-size: 2rem;
+}
+
 
 #places {
 	width: 100%;
 	height: 80rem;
 	background-color: lightsalmon;
+	display: flex; justify-content: center; align-items: center;
 }
-
-#recent-posts {
+#words-me {
 	width: 100%;
 	height: 75rem;
 	background-color: navajowhite;
 }
+.categories{
+	width:140rem;
+	height:70rem;
+	background-color: seagreen;
+	padding-top: 3rem;
+	font-size: 5rem;
+	line-height: 10rem;
+	padding-left: 1rem;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 600;
+
+}
+
+.category{
+	width:100%;
+	height: 10rem;
+	
+	display: flex; flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+
+
+
+
 
 #popular {
 	width: 100%;
 	height: 40rem;
 	background-color: olive;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10rem;
+}
+
+.recent-posts {
+	width:140rem;
+	height:30rem;
+	background-color: tan;
+
 }
 
 #email {

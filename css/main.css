@@ -395,30 +395,16 @@
 		justify-content: space-around;
 	}
 
-	.container {
-		overflow: hidden;
-	}
+		.container {
+			overflow: hidden;
+		}
 
 	.description {
 		font-family: "Secular One", sans-serif;
 		font-size: 1.5rem;
 	}
 
-	#offers img {
-		max-width: 100%;
-		vertical-align: middle;
-		display: inline-block;
-		border: 1px solid #ccc;
 
-		transform: scale(1);
-
-		transition: 0.2s;
-	}
-
-	#offers :hover img {
-		transform: scale(1.1);
-		cursor: pointer;
-	}
 
 	.tour {
 		font-size: 14pt;
