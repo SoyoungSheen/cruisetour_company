@@ -80,13 +80,27 @@ section {
 #featured-post {
 	width: 100%;
 	height: 73rem;
-
+	background-color: #bddce0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-bottom: 5rem;
+	align-items: flex-start;
+}
+
+.feature {
+	max-width: 100%;
+}
+.feature, .feature2 img {
+	width:100%;
+}
+
+.feature2 {
+	width: 100%; height: 73rem; display: flex;
+	align-items: flex-end ;
 }
 
 .featured-post-left {
-	width: 45%;
+	width: 35%;
 	height: 45rem;
 
 	margin-top: 15rem;
@@ -99,7 +113,7 @@ section {
 }
 
 .featured-post-right {
-	width: 45%;
+	width: 35%;
 	height: 60rem;
 	background-image: url(../img/stanleypark.png);
 	margin-top: 6rem;
@@ -211,12 +225,16 @@ section {
 	height: 2rem;
 	padding-bottom: 4rem;
 	padding-top: 2rem;
-
+	background-color: #1ecbe2;
 	border-radius: 5rem;
 	font-size: 2rem;
 	display: flex;
 	align-content: center;
 	justify-content: center;
+}
+
+.featured-button:hover {
+	color:blue;
 }
 
 #trending-posts {
@@ -253,6 +271,23 @@ section {
 	align-content: flex-end;
 	justify-content: space-around;
 }
+
+.view 
+ {
+	width: 20rem;
+	height: 2rem;
+	padding-bottom: 4rem;
+	padding-top: 2rem;
+	background-color: #1ecbe2;
+	border-radius: 5rem;
+	font-size: 2rem;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
+}
+
+.view:hover {color:blue;cursor: pointer;}
 
 .place {
 	width: 100%;
@@ -450,7 +485,7 @@ section {
 
 #popular {
 	width: 100%;
-	height: 40rem;
+	height: 20rem;
 	background-color: olive;
 	display: flex;
 	align-items: center;
@@ -460,9 +495,74 @@ section {
 
 .recent-posts {
 	width: 140rem;
-	height: 30rem;
+	height: 10rem;
 	background-color: tan;
+	display: flex;
+	align-content: flex-end;
+ justify-content: space-between;
 }
+
+
+
+.ports {
+	width: 20rem;
+	height: 2rem;
+	padding-bottom: 4rem;
+	padding-top: 2rem;
+	background-color: #1ecbe2;
+	border-radius: 5rem;
+	font-size: 2rem;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.ports:hover {
+	color:blue; cursor: pointer;
+}
+
+.container-left{
+	max-width: 85%;
+	height: 75rem;
+	background-color: crimson;
+	display: flex;
+	display: flex;
+	justify-content: space-between;
+  align-content: center;
+	margin-left: 13rem;
+	overflow: hidden;
+}
+
+.left-box-post {
+	width:30%;
+	height:40rem;
+	background-color: chocolate;
+	display: flex;
+flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: space-around;
+align-items: center;
+  justify-content: space-between;
+	overflow: hidden;
+	border-radius: 2rem;
+
+
+}
+
+
+.left-box-post img{
+	max-width:100%; height: 40rem; border-radius: 1rem;
+	transform: scale(1);
+	transition: all 0.3s ease-in-out;
+	object-fit: cover;
+}
+
+.left-box-post :hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+
+}
+
 
 #email {
 	width: 100%;
