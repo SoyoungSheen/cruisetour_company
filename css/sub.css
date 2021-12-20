@@ -272,6 +272,7 @@ section {
 	justify-content: space-around;
 }
 
+
 .view 
  {
 	width: 20rem;
@@ -537,6 +538,8 @@ section {
 	overflow: hidden;
 }
 
+
+
 .left-box-post {
 	width:30%;
 	height:40rem;
@@ -565,6 +568,10 @@ align-items: center;
 	transform: scale(1.1);
 	cursor: pointer;
 
+}
+
+.wrap-box-post {
+	width:
 }
 
 
