@@ -388,7 +388,7 @@ section {
 	width: 100%;
 	height: 50rem;
 	margin-top: 10rem;
-	background-color: lightskyblue;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -397,7 +397,7 @@ section {
 .box-left {
 	width: 70rem;
 	height: 50rem;
-	background-color: cornflowerblue;
+	background-color: #1ecbe2;
 	border-top-left-radius: 4rem;
 	border-bottom-left-radius: 4rem;
 	display: flex;
@@ -407,12 +407,13 @@ section {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
+	color: rgb(243, 239, 239);
 }
 
 .box-right {
 	width: 70rem;
 	height: 50rem;
-	background-color: darkgoldenrod;
+	
 	border-top-right-radius: 4rem;
 	border-bottom-right-radius: 4rem;
 	overflow: hidden;
@@ -435,7 +436,7 @@ section {
 .cbox-text {
 	width: 50rem;
 	height: 10rem;
-	background-color: darkorange;
+
 	font-size: 4rem;
 	font-family: "Times New Roman", Times, serif;
 	font-weight: 600;
@@ -445,14 +446,14 @@ section {
 .cbox-text-under {
 	width: 50rem;
 	height: 35rem;
-	background-color: darkturquoise;
+
 	font-size: 2rem;
 }
 
 #places {
 	width: 100%;
 	height: 80rem;
-	background-color: lightsalmon;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -460,12 +461,12 @@ section {
 #words-me {
 	width: 100%;
 	height: 75rem;
-	background-color: navajowhite;
+	
 }
 .categories {
 	width: 140rem;
 	height: 70rem;
-	background-color: seagreen;
+
 	padding-top: 3rem;
 	font-size: 5rem;
 	line-height: 10rem;
@@ -494,7 +495,7 @@ section {
 #popular {
 	width: 100%;
 	height: 20rem;
-	background-color: olive;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -504,7 +505,7 @@ section {
 .recent-posts {
 	width: 140rem;
 	height: 10rem;
-	background-color: tan;
+	
 	display: flex;
 	align-content: flex-end;
 	justify-content: space-between;
@@ -531,7 +532,6 @@ section {
 .container-left {
 	max-width: 85%;
 	height: 75rem;
-	background-color: crimson;
 	display: flex;
 	display: flex;
 	justify-content: space-between;
@@ -543,7 +543,7 @@ section {
 .left-box-post {
 	width: 100%;
 	height: 40rem;
-	background-color: chocolate;
+	
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
@@ -571,7 +571,7 @@ section {
 .wrap-box-post {
 	width: 30%;
 	height: 60rem;
-	background-color: lightcyan;
+	
 }
 
 .box-location {
@@ -597,6 +597,19 @@ section {
 	height: 3rem;
 	color: rgb(104, 102, 102);
 	letter-spacing: 0.5rem;
+}
+
+.hr {
+	width:85%;
+	height: 10rem;
+	background-color: 
+
+}
+
+.container-hr {
+		display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #email {
