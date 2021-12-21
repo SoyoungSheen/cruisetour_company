@@ -652,15 +652,16 @@ section {
 	margin-top: 15rem;
 	width: 100%;
 	height: 40rem;
-	background-color: tomato;
+	
 }
 
 .container-email {
 	margin-top: 15rem;
 	width: 100%;
 	height: 40rem;
-	background-color: yellow;
+
 	display: flex;
+	
 }
 
 .normal {
@@ -671,10 +672,27 @@ section {
 .left-email {
 	width:20rem;
 	height:20rem;
-	background-color: blue;
+
 }
 
-.left-email img {100%;}
+.wrap-right-email {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.left-email img {width:100%;}
+
+.right-email {
+	width:20rem;
+	height:20rem;
+
+}
+
+.right-email img {width:100%;}
 
 #box-email {
 	display: flex;
