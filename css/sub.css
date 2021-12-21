@@ -655,10 +655,26 @@ section {
 	background-color: tomato;
 }
 
+.container-email {
+	margin-top: 15rem;
+	width: 100%;
+	height: 40rem;
+	background-color: yellow;
+	display: flex;
+}
+
 .normal {
 	font-size: 2rem;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.left-email {
+	width:20rem;
+	height:20rem;
+	background-color: blue;
+}
+
+.left-email img {100%;}
 
 #box-email {
 	display: flex;
