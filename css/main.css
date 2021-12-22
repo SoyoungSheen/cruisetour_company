@@ -385,7 +385,7 @@
 	}
 
 	#offers {
-		height: 1500px;
+		height: 900px;
 
 		display: flex;
 		align-items: center;
@@ -1346,7 +1346,7 @@
 	}
 
 	#offers {
-		height: 800px;
+		height: 1100px;
 
 		border-bottom: 1px solid #bdb0b0;
 		display: block;
