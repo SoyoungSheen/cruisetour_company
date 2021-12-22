@@ -467,7 +467,7 @@ section {
 .categories {
 	width: 140rem;
 	height: 70rem;
-
+	position: absolute;
 	padding-top: 3rem;
 	font-size: 5rem;
 	line-height: 10rem;
@@ -487,11 +487,22 @@ section {
 	justify-content: space-between;
 }
 
+.imagebox {
+	position: relative; right:-50rem; top:-50rem;
+	width: 40%;
+	height: 40rem;
+	border-radius: 3rem;
+		
+	background-size: cover;
+
+
+}
 .posts {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 4rem;
 	font-weight: 600;
 }
+
 
 #popular {
 	width: 100%;

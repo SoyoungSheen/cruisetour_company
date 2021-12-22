@@ -1218,7 +1218,8 @@
         <hr>
         <div class="category">
           <a href="#">
-            <p class="c">Personal</p>
+            <p class="c">Personal
+            </p>
           </a>
           <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
         </div>
@@ -1226,7 +1227,19 @@
 
         <div class="category">
           <a href="#">
-            <p class="c">Europe</p>
+            <p class="c">Europe <div class="with" style="background-image: url('img/vancouver.jpg');"></div>
+            </p>
+          </a>
+
+          <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
+        </div>
+        <hr>
+
+
+        <div class="category">
+          <a href="#">
+            <p class="c">Asia <div class="with" style="background-image: url('img/westerdam.JPG');"></div>
+            </p>
           </a>
           <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
         </div>
@@ -1235,16 +1248,8 @@
 
         <div class="category">
           <a href="#">
-            <p class="c">Asia</p>
-          </a>
-          <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
-        </div>
-        <hr>
-
-
-        <div class="category">
-          <a href="#">
-            <p>South Africa</p>
+            <p>South Africa <div class="with" style="background-image: url(img/vacations.jpg);"></div>
+            </p>
           </a>
           <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
         </div>
@@ -1252,7 +1257,8 @@
 
         <div class="category">
           <a href="#">
-            <p class="c">Ocean</p>
+            <p class="c">Ocean <div class="with" style="background-image: url(img/westerdam.JPG);"></div>
+            </p>
           </a>
           <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
         </div>
@@ -1260,12 +1266,17 @@
 
         <div class="category">
           <a href="#">
-            <p class="c">Highlights</p>
+            <p class="c">Highlights <div class="with" style="background-image: url(img/victoria.jpg);"></div>
+            </p>
           </a>
           <a href="#"><img src="img/arrow.png" class="arrow" alt=""></a>
         </div>
 
         <hr>
+
+        <div class="imagebox">
+
+        </div>
       </div>
     </div>
 
@@ -1424,6 +1435,7 @@
 
 
 
+
     <footer>
 
       <div id="wrapping_footer">
@@ -1448,11 +1460,47 @@
     </footer>
   </section>
 
-  <!--<script>
-    $(window).load(function () {
-      $('.loading-wrap').fadeOut();
-    });
-  </script>-->
+  <script>
+    // $(function () {
+    //   $('.category').eq(0).mouseover(function () {
+    //     $('.imagebox').css({ backgroundImage: "url('../img/personal.jpg')" });
+    //   });
+    // });
+
+    document.getElementsByClassName('category')[0].addEventListener("mouseover", pic);
+
+    function pic() {
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/personal.jpg')";
+    }
+
+    document.getElementsByClassName('category')[1].addEventListener("mouseover", pic1);
+    function pic1() {
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/alaska.png')";
+    }
+
+    document.getElementsByClassName('category')[2].addEventListener("mouseover", pic2);
+    function pic2() {
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/cabo.jpg')";
+    }
+
+    document.getElementsByClassName('category')[3].addEventListener("mouseover", pic3);
+    function pic3() {
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/hawaii.jpg')";
+    }
+
+    document.getElementsByClassName('category')[4].addEventListener("mouseover", pic4);
+    function pic4() {
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/cabosan.jpg')";
+    }
+
+    document.getElementsByClassName('category')[5].addEventListener("mouseover", pic5);
+    function pic5() {
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/cr.png')";
+    }
+
+
+
+  </script>
 </body>
 
 
