@@ -90,7 +90,7 @@
 		line-height: 160%;
 		text-decoration: none;
 		font-size: 3rem;
-		color: #818181;
+		color: #818181 !important;
 		transition: 0.3s;
 		font-weight: bold;
 		display: block;
