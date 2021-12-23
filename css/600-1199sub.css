@@ -1,14 +1,4 @@
-@media screen and (max-width:599px){
-	
-}
-
-
 @media screen and (min-width: 600px) and (max-width: 1199px) {
-
-}
-
-
-@media screen and (min-width: 1200px) {
 
 
 	header {
@@ -135,7 +125,7 @@ section {
 }
 
 .featured-post-right {
-	width: 130%;
+	max-width: 130%;
 	height: 60rem;
 	background-image: url(../img/stanleypark.png);
 	margin-top: 6rem;
@@ -145,8 +135,8 @@ section {
 	background-size: cover;
 	margin-right: 10rem;
 	overflow: hidden;
-	position: relative;
-	
+	position: relative;	
+  left: 10rem;
 }
 
 .wrap-for-svg {
@@ -500,7 +490,7 @@ section {
 }
 
 .button-d {
-	width: 20rem;
+	width:35%;
     height: 2rem;
     padding-bottom: 4rem;
     padding-top: 2rem;
@@ -838,7 +828,6 @@ section {
 
 	
 }
-
 
 
 
