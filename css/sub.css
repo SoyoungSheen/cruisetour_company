@@ -396,7 +396,7 @@ section {
 }
 
 .box-left {
-	width: 70rem;
+	width: 30%;
 	height: 50rem;
 	background-color: #1ecbe2;
 	border-top-left-radius: 4rem;
@@ -408,11 +408,12 @@ section {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
+	padding-left: 5rem;
 	color: rgb(243, 239, 239);
 }
 
 .box-right {
-	width: 70rem;
+	width: 30%;
 	height: 50rem;
 	
 	border-top-right-radius: 4rem;
