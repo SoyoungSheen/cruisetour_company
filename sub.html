@@ -9,6 +9,8 @@
 
   <link rel="stylesheet" href="css/loading-page.css">
   <link rel="stylesheet" href="css/sub.css">
+
+
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="loading-page.html">
@@ -32,7 +34,7 @@
   <header id="header">
 
     <div id="logo-ver2">
-      <a href="#"><img src="img/logo.png" alt="logo" class="logo-min">
+      <a href="index.html"><img src="img/logo.png" alt="logo" class="logo-min">
 
       </a>
     </div>
@@ -56,8 +58,8 @@
 
         <ul class="nav-content">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">TOURS</a></li>
+          <li><a href="sub.html">ABOUT</a></li>
+          <li><a href="sub.html">TOURS</a></li>
           <li><a href="loading-page.html">Tour-LOG</a></li>
           <!-- 밑에 투어서비스 아이콘 이용해서 사용하기 -->
           <li><a href="#">CONTACT</a></li>
@@ -126,10 +128,16 @@
         <p class="vacay">vacation</p>
 
         <div class="four-contents">
-          <p>Blog</p>
-          <p>About</p>
-          <p>Contact</p>
-          <img src="img/search.png" alt=""></a>
+          <a href="#">
+            <p>Blog</p>
+          </a>
+          <a href="#">
+            <p>About</p>
+          </a>
+          <a href="#">
+            <p>Contact</p>
+          </a>
+
         </div>
 
       </div>
@@ -140,7 +148,8 @@
 
 
     <div id="featured-post">
-      <img src="svg/feature.svg" class="feature" alt="">
+
+      <div class="cover-svg"><img src="svg/feature.svg" class="feature" alt=""></div>
 
       <div class="featured-post-left">
 
@@ -887,7 +896,7 @@
 
         <div id="container_svg">
 
-          <svg class="svg" viewBox="0 0 884 525" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="svg" viewBox="0 0 1000 800" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="undraw_ride_a_bicycle_re_6tjy 1">
               <path id="Vector" d="M453.873 335.374L446.358 335.413L446.285 329.064L453.799 329.025L453.873 335.374Z"
                 fill="white" />
@@ -1199,6 +1208,10 @@
           Future cruises are on sail now.
           <br>
 
+          <br>
+          <a href="#">
+            <div class="button-d">DISCOVER NOW</div>
+          </a>
         </div>
 
 
@@ -1410,25 +1423,45 @@
     <div id="email">
 
       <div class="container-email">
+        <div class="wrap-ver2">
+          <div class="wrap-left-email">
+
+            <img src="svg/feature.svg" alt="">
+
+          </div>
+          <div id="box-email">
 
 
+            <p class="email-ad">Want to recieve emails?</p>
 
-        <div class="left-email">
-          <img src="svg/feature.svg" alt="">
-        </div>
+            <div>
+              <input id="input1" type="text" placeholder="e-mail address">
 
-        <div id="box-email">
-          <p class="email-ad">Want to recieve emails?</p> <br>
+              <input id="input2" type="submit" value="subscribe">
+            </div>
 
-          <p class="normal">Sign up to get an email every time a new blog is published. Only happens once a month!</p>
+            <p class="normal">Sign up to get an email every time a new blog is published. Only happens once a month!
+            </p>
 
-        </div>
-        <div class="wrap-right-email">
-          <div class="right-email">
-            <img src="svg/feature2.svg" alt="">
+
+            <div class="wrap-right-email">
+              <div class="right-email">
+                <img src="svg/feature2.svg" alt="">
+              </div>
+            </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
       </div>
+
+    </div>
 
 
     </div>
@@ -1491,15 +1524,34 @@
 
     document.getElementsByClassName('category')[4].addEventListener("mouseover", pic4);
     function pic4() {
-      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/ocean.png')";
+      document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/ocean.jpg')";
     }
 
     document.getElementsByClassName('category')[5].addEventListener("mouseover", pic5);
     function pic5() {
       document.getElementsByClassName('imagebox')[0].style.backgroundImage = "url('../img/hi.png')";
     }
-  </script>
 
+
+    function bike() {
+      $('#container_svg').css({ right: '-0px', 'z-index': '999' });
+      $('#container_svg').animate({ right: '+=100%' }, 4000, function () {
+        bike();
+      });
+    }
+
+
+    bike()
+
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0";
+    }
+
+  </script>
 
 </body>
 
