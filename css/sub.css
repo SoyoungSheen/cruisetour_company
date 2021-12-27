@@ -92,7 +92,7 @@
 	.featured-post-left {
 		width: 35%;
 		height: 45rem;
-		margin-left: 10rem;
+
 		margin-top: 15rem;
 		display: flex;
 		flex-direction: column;
@@ -205,6 +205,7 @@
 		font-family: Arial, Helvetica, sans-serif;
 		width: 12rem;
 		height: 3rem;
+		margin-left: 5rem;
 	}
 
 	.featured-title {
@@ -214,13 +215,16 @@
 		width: 50rem;
 		height: 13rem;
 		margin-right: 30rem;
+		text-align: center;
 	}
 
 	.featured-explain {
-		width: 210%;
+		width: 200%;
 		height: 11rem;
 		font-size: 3em;
+
 		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
 	}
 
 	.featured-button {
