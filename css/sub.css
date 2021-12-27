@@ -61,7 +61,7 @@
 
 	#featured-post {
 		width: 100%;
-		height: 150rem;
+		height: 100rem;
 		background-color: #bddce0;
 
 		margin-bottom: 5rem;
@@ -91,7 +91,7 @@
 	}
 
 	.featured-post-right {
-		width: 100%;
+		width: 90%;
 		height: 40rem;
 		background-image: url(../img/stanleypark.png);
 		margin-top: 6rem;
@@ -101,8 +101,8 @@
 		background-size: cover;
 		margin-right: 10rem;
 		overflow: hidden;
+		left: 20px;
 		position: relative;
-		left: 120px;
 	}
 
 	.wrap-for-svg {
@@ -195,18 +195,22 @@
 	}
 
 	.featured-title {
-		font-size: 5rem;
+		font-size: 4rem;
 		font-family: Georgia, "Times New Roman", Times, serif;
 		font-weight: 900;
 		width: 50rem;
 		height: 13rem;
+		text-align: center;
 	}
 
 	.featured-explain {
-		width: 100%;
+		width: 90%;
 		height: 11rem;
 		font-size: 3em;
+		line-height: 4rem;
 		font-family: Arial, Helvetica, sans-serif;
+		margin-left: 3rem;
+		position: absolute;
 	}
 
 	.featured-button {
@@ -217,9 +221,10 @@
 		background-color: #1ecbe2;
 		border-radius: 5rem;
 		font-size: 2rem;
-		display: flex;
-		align-content: center;
-		justify-content: center;
+		text-align: center;
+		position: relative;
+		top: 230px;
+		right: -100px;
 	}
 
 	.featured-button:hover {
@@ -246,8 +251,7 @@
 		width: 20rem;
 		height: 5rem;
 		font-size: 2rem;
-		margin-right: 10rem;
-		text-align: center;
+
 		padding: 1rem;
 
 		border-radius: 5rem;
@@ -255,11 +259,12 @@
 
 	#boxes-posts {
 		width: 100%;
-		height: 45rem;
+		height: 130rem;
 		margin-bottom: 10rem;
 		display: flex;
 		align-content: flex-end;
 		justify-content: space-around;
+		flex-direction: column;
 	}
 
 	.view {
@@ -354,37 +359,42 @@
 
 	#boxes-posts-second {
 		width: 100%;
-		height: 50rem;
+		height: 130rem;
 		background-color: none;
 		display: flex;
 		align-content: flex-end;
 		justify-content: space-around;
+		flex-direction: column;
+		flex-wrap: nowrap;
 		margin-top: 5rem;
 		margin-bottom: 10rem;
 	}
 
 	#boxes-posts-third {
 		width: 100%;
-		height: 50rem;
+		height: 130rem;
 		background-color: none;
 		display: flex;
 		align-content: flex-end;
 		justify-content: space-around;
+		flex-direction: column;
+		flex-wrap: nowrap;
 		margin-top: 5rem;
 	}
 
 	#words-me {
 		width: 100%;
-		height: 50rem;
+		height: 100rem;
 		margin-top: 10rem;
-
+		flex-direction: column;
+		flex-wrap: nowrap;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
 	.box-left {
-		width: 30%;
+		width: 90%;
 		height: 50rem;
 		background-color: rgb(28, 193, 214);
 		border-top-left-radius: 4rem;
@@ -404,7 +414,7 @@
 	}
 
 	.box-right {
-		width: 30%;
+		width: 90%;
 		height: 50rem;
 
 		border-top-right-radius: 4rem;
@@ -545,14 +555,16 @@
 	}
 
 	.container-left {
-		max-width: 85%;
-		height: 75rem;
+		width: 200%;
+		height: 150rem;
 		display: flex;
 		display: flex;
 		justify-content: space-between;
 		align-content: center;
 		margin-left: 13rem;
 		overflow: hidden;
+		flex-direction: column;
+		flex-wrap: nowrap;
 	}
 
 	.left-box-post {
