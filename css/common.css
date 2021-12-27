@@ -7,7 +7,6 @@
 		align-content: flex-start;
 		justify-content: flex-end;
 		margin-bottom: 3rem;
-		z-index: 10000;
 	}
 
 	header a:hover {
@@ -36,10 +35,6 @@
 		height: 8rem;
 	}
 
-	#b {
-		cursor: pointer;
-	}
-
 	.menu {
 		display: flex;
 	}
@@ -49,8 +44,8 @@
 		justify-content: space-around;
 	}
 	.logo-ver2 {
-		width: 10rem;
-		height: 10rem;
+		width: 20rem;
+		height: 20rem;
 
 		display: flex;
 		align-items: center;
@@ -58,11 +53,6 @@
 		animation-name: moveInRight;
 		animation-timing-function: ease-out;
 		animation-duration: 3s;
-	}
-
-	.logo-ver2 img {
-		width: 10rem;
-		height: 10rem;
 	}
 
 	.wrap-logo {
@@ -166,42 +156,22 @@
 		display: none;
 	}
 
-	footer {
-		height: 25rem;
-		background-color: rgb(0, 0, 0);
-		font-size: 3.5rem;
-		font-family: "Alfa Slab One", cursive;
-	}
-
 	#wrapping_footer {
 		width: 100%;
-		height: 25rem;
+		height: 20rem;
 		display: flex;
-		justify-content: space-around;
+		justify-content: flex-start;
 		flex-direction: column;
+		align-items: flex-end;
+
 		flex-wrap: wrap;
 		align-content: space-around;
-		align-items: center;
 	}
 	.container_left {
-		width: 100%;
-		height: 10rem;
-		display: flex;
-		align-content: flex-start;
-		margin-top: 2rem;
-		justify-content: space-around;
-		margin-bottom: -2rem;
-		color: #ccc;
+		display: none;
 	}
 	.container_right {
-		width: 30rem;
-		height: 10rem;
-		display: flex;
-
-		flex-wrap: nowrap;
-		align-items: center;
-		align-content: flex-start;
-		justify-content: space-around;
+		display: none;
 	}
 
 	.container_right img {
@@ -210,16 +180,76 @@
 		opacity: 0.5;
 	}
 
-	.container_right-ver2 {
-		display: none;
+	.container_left-ver2 {
+		width: 40rem;
+		height: 10rem;
+
+		color: #ccc;
+
+		display: flex;
+		align-items: flex-end;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-content: flex-start;
 	}
 
-	.container_left-ver2 {
-		display: none;
+	.container_right-ver2 {
+		width: 30rem;
+		height: 10rem;
+
+		display: flex;
+		align-content: center;
+		align-items: flex-end;
+		justify-content: space-around;
+	}
+
+	.right-ver2-wrap {
+		display: flex;
+	}
+	.container_right-ver2 img {
+		border-radius: 100px;
+		background-color: #1ecbe2;
+		opacity: 0.5;
 	}
 }
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
+	header a {
+		padding: 15px;
+		text-decoration: none;
+		display: block;
+	}
+
+	header a:hover {
+		background-color: #eee;
+		color: #666;
+		text-decoration: none;
+		display: block;
+	}
+
+	header {
+		width: 100%;
+		height: 30rem;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		background-color: none;
+		z-index: 1;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#b_box {
+		width: 30rem;
+		height: 20rem;
+		display: flex;
+		align-content: stretch;
+		flex-direction: row;
+		justify-content: flex-end;
+		
+	}
+
 	header {
 		width: 100%;
 		height: 20rem;
@@ -230,66 +260,15 @@
 		margin-bottom: 3rem;
 	}
 
-	header a:hover {
-		background-color: #eee;
-		color: #666;
-		text-decoration: none;
-		display: block;
-	}
-
-	#header {
-		display: none;
-		width: 100%;
-		height: 23rem;
-		position: fixed;
-		left: 0px;
-		top: 0px;
-		background-color: white;
-		z-index: 300;
-		display: flex;
-		justify-content: space-between;
-	}
-
-	#header a {
-		padding: 15px;
-		text-decoration: none;
-		display: block;
-	}
-
-	#messenger_box {
-		width: 23rem;
-		height: 25rem;
-
-		display: flex;
-		justify-content: center;
-	}
-
-	#b_box {
-		width: 23rem;
-		height: 20rem;
-		display: flex;
-		align-content: stretch;
-		flex-direction: row;
-		justify-content: flex-end;
-	}
-
 	#b_box img {
 		width: 8rem;
 		height: 8rem;
 	}
 
-	.logo_ver2 {
+	#logo_ver2 {
 		width: 100%;
 		height: 23rem;
 		background-color: darkorange;
-		animation-name: moveInRight;
-		animation-timing-function: ease-out;
-		animation-duration: 3s;
-	}
-
-	.log_ver2 img {
-		width: 10rem;
-		height: 10rem;
 	}
 
 	#logo {
@@ -297,13 +276,7 @@
 	}
 
 	.wrap-logo {
-		width: 100%;
-		height: 23rem;
-
 		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-		align-content: center;
 	}
 	.logo {
 		width: 8rem;
@@ -391,6 +364,12 @@
 		animation-duration: 3s;
 	}
 
+	/*#logo-container {
+		width:100%;
+		height:33rem;
+		display: flex;
+	}*/
+
 	#logo img {
 		width: 10rem;
 		height: 10rem;
@@ -477,12 +456,10 @@
 		align-content: space-around;
 	}
 	.container_left {
-		display: block;
-		display: flex;
-		color: whitesmoke;
+		display: none;
 	}
 	.container_right {
-		display: block;
+		display: none;
 	}
 
 	.container_right img {
@@ -491,10 +468,24 @@
 		opacity: 0.5;
 	}
 
+	.container_left-ver2 {
+		width: 40rem;
+		height: 10rem;
+
+		color: #ccc;
+
+		display: flex;
+		align-items: flex-end;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-content: flex-start;
+	}
+
 	.container_right-ver2 {
 		width: 30rem;
 		height: 10rem;
-
+		font-family: "Alfa Slab One", cursive;
 		display: flex;
 		align-content: center;
 		align-items: flex-end;
@@ -536,10 +527,6 @@
 		color: #666;
 		text-decoration: none;
 		display: block;
-	}
-
-	.logo-ver2 {
-		display: none;
 	}
 
 	nav {
@@ -671,7 +658,7 @@
 	}
 
 	footer {
-		height: 25rem;
+		height: 20rem;
 		background-color: rgb(0, 0, 0);
 		font-size: 3.5rem;
 		font-family: "Alfa Slab One", cursive;
@@ -679,16 +666,17 @@
 
 	#wrapping_footer {
 		width: 100%;
-		height: 25rem;
+		height: 20rem;
 		display: flex;
-		justify-content: space-around;
+		justify-content: flex-start;
 		flex-direction: column;
+		align-items: flex-end;
+
 		flex-wrap: wrap;
 		align-content: space-around;
-		align-items: center;
 	}
 	.container_left {
-		width: 100%;
+		width: 35rem;
 		height: 10rem;
 		display: flex;
 		align-content: flex-start;
