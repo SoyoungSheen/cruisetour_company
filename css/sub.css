@@ -191,7 +191,7 @@
 		text-transform: uppercase;
 		font-size: 1.3rem;
 		font-family: Arial, Helvetica, sans-serif;
-		width: 100%;
+		width: 20rem;
 		height: 10rem;
 		display: flex;
 		justify-content: center;
@@ -891,7 +891,7 @@
 
 	#featured-post {
 		width: 100%;
-		height: 80rem;
+		height: 100rem;
 		background-color: #bddce0;
 		display: flex;
 		justify-content: space-between;
@@ -908,11 +908,7 @@
 	}
 
 	.feature2 {
-		width: 80%;
-		height: 80rem;
-		display: flex;
-		align-items: flex-end;
-		justify-content: flex-end;
+		display: none;
 	}
 
 	.featured-post-left {
@@ -923,13 +919,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		align-content: space-around;
+		align-content: flex-start;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: flex-start;
 	}
 
 	.featured-post-right {
-		width: 80%;
+		width: 60%;
 		height: 60rem;
 		background-image: url(../img/stanleypark.png);
 
@@ -940,7 +936,7 @@
 		margin-right: 10rem;
 		overflow: hidden;
 		position: relative;
-		left: 120px;
+		left: 50px;
 		bottom: -10rem;
 	}
 
@@ -1032,6 +1028,10 @@
 		font-family: Arial, Helvetica, sans-serif;
 		width: 12rem;
 		height: 3rem;
+	}
+
+	.featured-left-ver2 {
+		display: none;
 	}
 
 	.featured-title {
@@ -1727,6 +1727,13 @@
 		width: 100%;
 	}
 
+	.featured-left-ver2 {
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		font-family: Arial, Helvetica, sans-serif;
+		width: 12rem;
+		height: 3rem;
+	}
 	.featured-post-left {
 		width: 35%;
 		height: 45rem;
@@ -1838,11 +1845,7 @@
 	}
 
 	.featured-left {
-		text-transform: uppercase;
-		font-size: 1.5rem;
-		font-family: Arial, Helvetica, sans-serif;
-		width: 12rem;
-		height: 3rem;
+		display: none;
 	}
 
 	.featured-title {
