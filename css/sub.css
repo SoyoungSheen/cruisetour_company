@@ -334,14 +334,14 @@
 	}
 
 	.wrap-letters {
-		width: 70rem;
+		width: 100%;
 		height: 15rem;
 		margin-bottom: 3rem;
 	}
 
 	.wrap-around-downtown {
 		overflow: hidden;
-		width: 70rem;
+		width: 100%;
 		height: 50rem;
 		margin-bottom: 5rem;
 		display: flex;
@@ -462,7 +462,7 @@
 	}
 
 	.cbox-text {
-		width: 50rem;
+		width: 100%;
 		height: 10rem;
 
 		font-size: 4rem;
@@ -472,7 +472,7 @@
 	}
 
 	.cbox-text-under {
-		width: 50rem;
+		width: 100%;
 		height: 35rem;
 
 		font-size: 2.5rem;
