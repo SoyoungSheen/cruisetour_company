@@ -347,8 +347,8 @@
 		margin-top: 3rem;
 		width: 75rem;
 		height: 5rem;
-		font-size: 3rem;
-
+		font-size: 2rem;
+		margin-right: 1.5rem;
 		font-family: Georgia, "Times New Roman", Times, serif;
 	}
 
@@ -859,8 +859,8 @@
 	}
 
 	#featured-post {
-		width: 120%;
-		height: 73rem;
+		width: 100%;
+		height: 80rem;
 		background-color: #bddce0;
 		display: flex;
 		justify-content: space-between;
@@ -878,7 +878,7 @@
 
 	.feature2 {
 		width: 80%;
-		height: 73rem;
+		height: 80rem;
 		display: flex;
 		align-items: flex-end;
 		justify-content: flex-end;
@@ -898,7 +898,7 @@
 	}
 
 	.featured-post-right {
-		width: 100%;
+		width: 80%;
 		height: 60rem;
 		background-image: url(../img/stanleypark.png);
 
@@ -1004,17 +1004,19 @@
 	}
 
 	.featured-title {
-		font-size: 5rem;
+		font-size: 3rem;
 		font-family: Georgia, "Times New Roman", Times, serif;
 		font-weight: 900;
-		width: 50rem;
+		width: 100%;
 		height: 13rem;
 	}
 
 	.featured-explain {
 		width: 100%;
-		height: 11rem;
+		height: 20rem;
 		font-size: 3em;
+		line-height: 2rem;
+
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
@@ -1033,6 +1035,14 @@
 
 	.featured-button:hover {
 		color: blue;
+	}
+
+	.cover-button {
+		width: 100%;
+		height: 10rem;
+		justify-content: center;
+		align-items: center;
+		display: flex;
 	}
 
 	#trending-posts {
@@ -1683,7 +1693,7 @@
 	}
 
 	.cover-svg {
-		width: 50%;
+		width: 100%;
 	}
 
 	.featured-post-left {
