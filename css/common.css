@@ -27,7 +27,7 @@
 	#b_box {
 		width: 20rem;
 		height: 20rem;
-		z-index: 777;
+		z-index: 100;
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: flex-end;
