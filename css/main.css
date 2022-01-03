@@ -483,6 +483,7 @@
 
 	.ultimate {
 		color: white;
+		font-size: 2rem;
 		letter-spacing: 0.5rem;
 		animation-name: moveInLeft;
 		animation-timing-function: ease-out;
@@ -493,6 +494,7 @@
 
 	.beautiful {
 		color: rgb(189, 186, 186);
+		font-size: 1.5rem;
 		letter-spacing: 1rem;
 		animation-name: moveInRight;
 		animation-timing-function: ease-out;
@@ -538,7 +540,7 @@
 		bottom: 255px;
 		left: 150px;
 		padding-left: 1rem;
-
+	
 		font-family: "Secular One", sans-serif;
 	}
 
@@ -1449,6 +1451,7 @@
 	.ultimate {
 		color: white;
 		letter-spacing: 0.5rem;
+		font-size: 2rem;
 		animation-name: moveInLeft;
 		animation-timing-function: ease-out;
 		animation-iteration-count: infinite;
@@ -1458,6 +1461,7 @@
 
 	.beautiful {
 		color: rgb(189, 186, 186);
+		font-size: 1.5rem;
 		letter-spacing: 1rem;
 		animation-name: moveInRight;
 		animation-timing-function: ease-out;
@@ -2419,15 +2423,15 @@
 			}
 		
 			.icecream {
-				width: 450px;
+				width: 100%;
 				height: 300px;
 				background-color: ivory;
 			}
 		
 			#box_cr {
-				width: 1200px;
+				width: 100%;
 				height: 300px;
-		
+				font-size: 5rem;
 				display: flex;
 				align-content: stretch;
 				justify-content: space-around;
@@ -2440,12 +2444,14 @@
 		
 			.ultimate {
 				color: white;
+				font-size: 2rem;
 				letter-spacing: 0.5rem;
 				animation-name: moveInLeft;
 				animation-timing-function: ease-out;
 				animation-iteration-count: infinite;
 				animation-duration: 3s;
 				animation-delay: 5s;
+				font-size: 5rem;
 			}
 		
 			.beautiful {
@@ -2456,6 +2462,7 @@
 				animation-iteration-count: infinite;
 				animation-duration: 3s;
 				animation-delay: 5s;
+				font-size:2rem;
 			}
 		
 			.map {
@@ -2472,7 +2479,7 @@
 				font-family: "Bangers", cursive;
 			}
 			.box_3 {
-				width: 350px;
+				width: 100%;
 				height: 250px;
 				background-color: darkgrey;
 				margin-left: 30px;
@@ -2493,7 +2500,7 @@
 				bottom: 256px;
 				left: 150px;
 				padding-left: 1rem;
-		
+				font-size: 1.5rem;
 				font-family: "Secular One", sans-serif;
 			}
 		
