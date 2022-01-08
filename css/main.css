@@ -809,6 +809,11 @@
 		width: 30rem;
 		padding: 1rem;
 	}
+
+	.btn3_text {
+		cursor: pointer;
+	}
+	
 	
 	.we {
 		font-size: 2.5rem;
@@ -1788,6 +1793,11 @@
 		padding: 1rem;
 		font-size: 2rem;
 	}
+
+	.btn3_text {
+		cursor: pointer;
+	}
+	
 
 	.we {
 		font-size: 2.5rem;
@@ -2775,6 +2785,10 @@
 			height: 3rem;
 			border-radius: 5px;
 			color: deepskyblue;
+		}
+
+		.btn3_text {
+			cursor: pointer;
 		}
 		
 		#destinations {
